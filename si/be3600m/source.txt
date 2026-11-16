@@ -1,0 +1,2 @@
+firmware=be3600m_ml_16_006.bin
+si_dir=be3600m//oem_firmware/_be3600m_ml_16_006.bin.extracted/squashfs-root/opt/efm/default/var/run/si

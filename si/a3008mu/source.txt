@@ -1,0 +1,2 @@
+firmware=a3008_ml_16_006.bin
+si_dir=a3008mu//oem_firmware/_a3008_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

@@ -1,0 +1,119 @@
+{
+  "model": "ipTIME AX7800M-6E",
+  "target": "mediatek",
+  "bootloader": "",
+  "soc": "MediaTek MT7986",
+  "soc_vendor": "MediaTek",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "mt7531",
+  "wlan2_4": "mt7916",
+  "wlan5": "mt7986",
+  "wlan_driver": "mt76",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200n1)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 6",
+  "wlan5_2": "",
+  "wlan6": "mt7916",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "WAN(eth1)",
+      "switch": "mt7986",
+      "port": "6",
+      "role": "wan"
+    },
+    {
+      "label": "LAN1(lan3)",
+      "switch": "mt7531",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2(lan2)",
+      "switch": "mt7531",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3(lan1)",
+      "switch": "mt7531",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4(lan0)",
+      "switch": "mt7531",
+      "port": "0",
+      "role": "lan mirror"
+    },
+    {
+      "label": "CPU",
+      "switch": "mt7531",
+      "port": "6",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": 411,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 9,
+      "active_low": true,
+      "raw": "in/9/0"
+    },
+    "wps": {
+      "gpio": 10,
+      "active_low": true,
+      "raw": "in/10/0"
+    },
+    "wifi_switch": {
+      "gpio": 15,
+      "active_low": false,
+      "raw": "in/15/1"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 21,
+      "active_low": true,
+      "raw": "out/21/0"
+    },
+    {
+      "name": "usb0",
+      "gpio": 11,
+      "active_low": true,
+      "raw": "out/11/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 1,
+      "active_low": true,
+      "raw": "out/1/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 2,
+      "active_low": true,
+      "raw": "out/2/0"
+    },
+    {
+      "name": "wlan6g",
+      "gpio": 12,
+      "active_low": true,
+      "raw": "out/12/0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": true,
+  "fan_info": "[0].sense=in/20/0/-1/1, [0].control1=out/19/1/-1/1, [0].control2=out/18/1/-1/1",
+  "uart_baudrate": 115200,
+  "internal_model": "IP04523",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "ax7800m_ml_16_006.bin"
+}

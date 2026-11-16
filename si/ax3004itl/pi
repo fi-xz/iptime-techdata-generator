@@ -1,0 +1,10 @@
+name=ipTIME AX3004ITL
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.support_type=4
+easymesh.support_role=2
+easymesh.support_func=led|speed_test|wired_stt|wireless_stt|wired_bh|dfs|guest_network|expert_wifi
+easymesh.icon=tower_001
+code=ax3004i

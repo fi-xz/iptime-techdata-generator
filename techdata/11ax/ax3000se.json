@@ -1,0 +1,102 @@
+{
+  "model": "ipTIME AX3000SE",
+  "target": "mediatek",
+  "bootloader": "",
+  "soc": "MediaTek MT7981B",
+  "soc_vendor": "MediaTek",
+  "flash": "128MB NAND",
+  "ram": "256MB",
+  "switch": "mt7531",
+  "wlan2_4": "mt7976",
+  "wlan5": "mt7976",
+  "wlan_driver": "mt76",
+  "usb": 0,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200n1)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 6",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "WAN(lan0)",
+      "switch": "mt7531",
+      "port": "0",
+      "role": "wan"
+    },
+    {
+      "label": "LAN1(lan4)",
+      "switch": "mt7531",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2(lan3)",
+      "switch": "mt7531",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3(lan2)",
+      "switch": "mt7531",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4(lan1)",
+      "switch": "mt7531",
+      "port": "1",
+      "role": "lan mirror"
+    },
+    {
+      "label": "CPU",
+      "switch": "mt7531",
+      "port": "6",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": 455,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 1,
+      "active_low": true,
+      "raw": "in/1/0"
+    },
+    "wps": {
+      "gpio": 0,
+      "active_low": true,
+      "raw": "in/0/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 9,
+      "active_low": true,
+      "raw": "out/9/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 7,
+      "active_low": true,
+      "raw": "out/7/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 7,
+      "active_low": true,
+      "raw": "out/7/0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 115200,
+  "internal_model": "IP04493A",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "ax3kse_ml_16_006.bin"
+}

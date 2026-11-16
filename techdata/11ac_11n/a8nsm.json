@@ -1,0 +1,124 @@
+{
+  "model": "ipTIME A8ns-M",
+  "target": "mediatek",
+  "bootloader": "",
+  "soc": "MediaTek MT7623",
+  "soc_vendor": "MediaTek",
+  "flash": "128MB",
+  "ram": "256MB",
+  "switch": "mt7623",
+  "wlan2_4": "mt7615",
+  "wlan5": "mt7615",
+  "wlan_driver": "mt76",
+  "usb": 2,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyMT2 115200bps (OEM kernel console=ttyMT2,115200n1)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "mt7623",
+      "port": "0",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "mt7623",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "mt7623",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "mt7623",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "mt7623",
+      "port": "4",
+      "role": "wan"
+    },
+    {
+      "label": "CPU",
+      "switch": "mt7623",
+      "port": "6",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 257,
+      "active_low": true,
+      "raw": "in/257/0"
+    },
+    "wps": {
+      "gpio": 256,
+      "active_low": true,
+      "raw": "in/256/0"
+    },
+    "wifi_switch": {
+      "gpio": 20,
+      "active_low": false,
+      "raw": "in/20/1"
+    },
+    "led_switch": {
+      "gpio": 55,
+      "active_low": true,
+      "raw": "in/55/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 126,
+      "active_low": false,
+      "raw": "out/126/1"
+    },
+    {
+      "name": "usb0",
+      "gpio": 74,
+      "active_low": false,
+      "raw": "out/74/1"
+    },
+    {
+      "name": "usb1",
+      "gpio": 56,
+      "active_low": false,
+      "raw": "out/56/1"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 53,
+      "active_low": false,
+      "raw": "out/53/1"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 54,
+      "active_low": false,
+      "raw": "out/54/1"
+    }
+  ],
+  "led_port_control": "switch",
+  "fan": true,
+  "fan_info": "[0].sense=in/14/0, [0].control1=out/18/1, [0].control2=out/19/1",
+  "uart_baudrate": 115200,
+  "internal_model": "IP04294",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "a8nm_ml_16_006.bin"
+}

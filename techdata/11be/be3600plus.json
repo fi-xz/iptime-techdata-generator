@@ -1,0 +1,96 @@
+{
+  "model": "ipTIME BE3600plus",
+  "target": "",
+  "bootloader": "",
+  "soc": "Airoha AN7563PT",
+  "soc_vendor": "Airoha",
+  "flash": "128MB NAND",
+  "ram": "256MB",
+  "switch": "an7563",
+  "wlan2_4": "mt7990an",
+  "wlan5": "mt7990an",
+  "wlan_driver": "",
+  "usb": 0,
+  "ethernet_ports": 4,
+  "serial_port": 0,
+  "serial_port_info": "",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 7",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "WAN(eth0.4)",
+      "switch": "an7563",
+      "port": "3",
+      "role": "wan"
+    },
+    {
+      "label": "LAN1(eth0.1)",
+      "switch": "an7563",
+      "port": "0",
+      "role": "lan mirror"
+    },
+    {
+      "label": "LAN2(eth0.2)",
+      "switch": "an7563",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3(eth0.3)",
+      "switch": "an7563",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "CPU",
+      "switch": "an7563",
+      "port": "0",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 25,
+      "active_low": true,
+      "raw": "in/25/0"
+    },
+    "wps": {
+      "gpio": 5,
+      "active_low": true,
+      "raw": "in/5/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 21,
+      "active_low": true,
+      "raw": "out/21/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 1,
+      "active_low": true,
+      "raw": "out/1/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 12,
+      "active_low": true,
+      "raw": "out/12/0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": null,
+  "internal_model": "WR3604BE",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "be3600p_ml_16_006.bin"
+}

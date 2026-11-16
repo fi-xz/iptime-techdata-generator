@@ -1,0 +1,132 @@
+{
+  "model": "ipTIME AX6008M",
+  "target": "mediatek",
+  "bootloader": "",
+  "soc": "MediaTek MT7986A",
+  "soc_vendor": "MediaTek",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "rtl8370mb",
+  "wlan2_4": "mt7975",
+  "wlan5": "mt7975",
+  "wlan_driver": "mt76",
+  "usb": 1,
+  "ethernet_ports": 9,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200n1)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 6",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "WAN(eth0)",
+      "switch": "mt7986",
+      "port": "6",
+      "role": "wan"
+    },
+    {
+      "label": "CPU-LINK(eth1)",
+      "switch": "mt7986",
+      "port": "",
+      "role": "joint"
+    },
+    {
+      "label": "LAN1",
+      "switch": "rtl8370mb",
+      "port": "0",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "rtl8370mb",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "rtl8370mb",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "rtl8370mb",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN5",
+      "switch": "rtl8370mb",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN6",
+      "switch": "rtl8370mb",
+      "port": "5",
+      "role": "lan"
+    },
+    {
+      "label": "LAN7",
+      "switch": "rtl8370mb",
+      "port": "6",
+      "role": "lan trunk"
+    },
+    {
+      "label": "LAN8",
+      "switch": "rtl8370mb",
+      "port": "7",
+      "role": "lan trunk mirror"
+    },
+    {
+      "label": "CPU-LINK",
+      "switch": "rtl8370mb",
+      "port": "17",
+      "role": "joint"
+    }
+  ],
+  "gpio_base": 411,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 9,
+      "active_low": true,
+      "raw": "in/9/0"
+    },
+    "wps": {
+      "gpio": 9,
+      "active_low": true,
+      "raw": "in/9/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 21,
+      "active_low": true,
+      "raw": "out/21/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 1,
+      "active_low": true,
+      "raw": "out/1/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 2,
+      "active_low": true,
+      "raw": "out/2/0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": true,
+  "fan_info": "[0].sense=in/20/0/-1/1, [0].control1=out/19/1/-1/1, [0].control2=out/18/1/-1/1",
+  "uart_baudrate": 115200,
+  "internal_model": "IP4533",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "ax6008m_ml_16_006.bin"
+}

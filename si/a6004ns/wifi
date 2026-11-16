@@ -1,0 +1,14 @@
+apply_regulation_on_ate=0
+txpwr_low_limit_2g=25
+txpwr_low_limit_5gh=25
+txpwr_low_limit_5gm=25
+txpwr_low_limit_5gl=36
+wifi_reg[0].country=KR
+wifi_reg[0].pwr_percent_2g=78
+wifi_reg[0].nvram[0].tag=0:cckbw20ul2gpo
+wifi_reg[0].nvram[0].val=0xffff
+wifi_reg[0].nvram[1].tag=0:cckbw202gpo
+wifi_reg[0].nvram[1].val=0xffff
+wifi_reg[0].pwr_percent_5gh=100
+wifi_reg[0].pwr_percent_5gm=100
+wifi_reg[0].pwr_percent_5gl=100

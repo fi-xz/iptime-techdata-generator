@@ -1,0 +1,23 @@
+ethdev[0].name=qca8386
+ethdev[0].ifname=eth1
+ethdev[0].role=lan iptv
+ethdev[0].supported=100h 100f 1000f 2500f
+
+eport[0].role=cpu
+eport[0].reg=0
+eport[0].derived=qca8386
+
+eport[1].reg=1
+eport[1].derived=qca8386
+
+eport[2].reg=2
+eport[2].derived=qca8386
+
+eport[3].role=lan mirror
+eport[3].reg=3
+eport[3].derived=qca8386
+
+eport[4].role=wan
+eport[4].ifname=eth1.2
+eport[4].reg=4
+eport[4].derived=qca8386

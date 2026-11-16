@@ -1,0 +1,2 @@
+firmware=a304_kr_10_074.bin
+si_dir=a304//oem_firmware/_a304_kr_10_074.bin.extracted/squashfs-root/default/var/run/si

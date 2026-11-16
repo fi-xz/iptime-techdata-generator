@@ -1,0 +1,8 @@
+name=ipTIME A804NS-MU
+company=EFM Networks
+url=www.iptime.co.kr 
+type=wireless_router
+vendor=efm
+easymesh.support_type=4
+easymesh.support_role=2
+easymesh.support_func=wired_stt|wired_bh|dfs|guest_network|expert_wifi

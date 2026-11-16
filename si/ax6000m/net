@@ -1,0 +1,30 @@
+ethdev[0].name=mt7531
+ethdev[0].ifname=eth0
+ethdev[0].role=lan iptv
+ethdev[0].supported=10h 10f 100h 100f 1000f
+
+eport[0].role=wan
+eport[0].ifname=lan0
+eport[0].reg=0
+eport[0].derived=mt7531
+
+eport[1].ifname=lan4
+eport[1].reg=4
+eport[1].derived=mt7531
+
+eport[2].ifname=lan3
+eport[2].reg=3
+eport[2].derived=mt7531
+
+eport[3].ifname=lan2
+eport[3].reg=2
+eport[3].derived=mt7531
+
+eport[4].role=lan mirror
+eport[4].ifname=lan1
+eport[4].reg=1
+eport[4].derived=mt7531
+
+eport[5].role=cpu
+eport[5].reg=6
+eport[5].derived=mt7531

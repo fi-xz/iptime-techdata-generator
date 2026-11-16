@@ -1,0 +1,102 @@
+{
+  "model": "ipTIME BE3600QCA",
+  "target": "",
+  "bootloader": "",
+  "soc": "Qualcomm IPQ5312",
+  "soc_vendor": "Qualcomm",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "qca8386",
+  "wlan2_4": "ipq5312",
+  "wlan5": "qca8386",
+  "wlan_driver": "ath12k",
+  "usb": 1,
+  "ethernet_ports": 4,
+  "serial_port": 0,
+  "serial_port_info": "",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 7",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "CPU",
+      "switch": "qca8386",
+      "port": "0",
+      "role": "cpu"
+    },
+    {
+      "label": "LAN1",
+      "switch": "qca8386",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "qca8386",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "qca8386",
+      "port": "3",
+      "role": "lan mirror"
+    },
+    {
+      "label": "WAN(eth1.2)",
+      "switch": "qca8386",
+      "port": "4",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": 459,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 45,
+      "active_low": true,
+      "raw": "in/45/0"
+    },
+    "wps": {
+      "gpio": 35,
+      "active_low": true,
+      "raw": "in/35/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 32,
+      "active_low": false,
+      "raw": "out/32/1"
+    },
+    {
+      "name": "usb0",
+      "gpio": 31,
+      "active_low": false,
+      "raw": "out/31/1"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 30,
+      "active_low": false,
+      "raw": "sys_led/30/1"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 34,
+      "active_low": false,
+      "raw": "sys_led/34/1"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": null,
+  "internal_model": "WR3604BE",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "be3600qca_ml_16_006.bin"
+}

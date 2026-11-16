@@ -1,0 +1,2 @@
+firmware=a7ns_kr_11_004.bin
+si_dir=a7ns//oem_firmware/_a7ns_kr_11_004.bin.extracted/squashfs-root/default/var/run/si

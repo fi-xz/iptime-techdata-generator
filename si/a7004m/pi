@@ -1,0 +1,10 @@
+name=ipTIME A7004M
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.support_type=3
+easymesh.support_role=3
+lang=kr
+easymesh.icon=router_001
+code=a7004m

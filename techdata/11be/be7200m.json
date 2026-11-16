@@ -1,0 +1,108 @@
+{
+  "model": "ipTIME BE7200M",
+  "target": "mediatek",
+  "bootloader": "",
+  "soc": "MediaTek MT7988",
+  "soc_vendor": "MediaTek",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "mt7988 + rtl8372n",
+  "wlan2_4": "mt7992av",
+  "wlan5": "mt7992av",
+  "wlan_driver": "mt76",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200n1)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 7",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "rtl8372n",
+  "switch_mapping": [
+    {
+      "label": "WAN(eth1)",
+      "switch": "mt7988d",
+      "port": "",
+      "role": "wan"
+    },
+    {
+      "label": "CPU-LINK(eth2)",
+      "switch": "mt7988d",
+      "port": "",
+      "role": "joint"
+    },
+    {
+      "label": "CPU-LINK",
+      "switch": "rtl8372n",
+      "port": "3",
+      "role": "joint"
+    },
+    {
+      "label": "LAN1",
+      "switch": "rtl8372n",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "rtl8372n",
+      "port": "5",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "rtl8372n",
+      "port": "6",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "rtl8372n",
+      "port": "7",
+      "role": "lan"
+    }
+  ],
+  "gpio_base": 428,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 14,
+      "active_low": true,
+      "raw": "in/14/0"
+    },
+    "wps": {
+      "gpio": 14,
+      "active_low": true,
+      "raw": "in/14/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 0,
+      "active_low": false,
+      "raw": "out/0/1"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 18,
+      "active_low": false,
+      "raw": "out/18/1"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 17,
+      "active_low": false,
+      "raw": "out/17/1"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 115200,
+  "internal_model": "",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "be7200m_ml_16_006.bin"
+}

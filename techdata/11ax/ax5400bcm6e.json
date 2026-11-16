@@ -1,0 +1,108 @@
+{
+  "model": "ipTIME AX5400BCM-6E",
+  "target": "",
+  "bootloader": "",
+  "soc": "Broadcom BCM6756",
+  "soc_vendor": "Broadcom",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "internal + bcm53134O (cpu-switch port 5)",
+  "wlan2_4": "bcm6756",
+  "wlan5": "bcm6756",
+  "wlan_driver": "",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 6",
+  "wlan5_2": "",
+  "wlan6": "bcm6756",
+  "switch_ext": "bcm53134O",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "internal",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "internal",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "internal",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "internal",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "internal",
+      "port": "0",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 9,
+      "active_low": true,
+      "raw": "in/9/0"
+    },
+    "wps": {
+      "gpio": 4,
+      "active_low": true,
+      "raw": "in/4/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "wan1",
+      "gpio": 3,
+      "active_low": true,
+      "raw": "out/3/0"
+    },
+    {
+      "name": "cpu",
+      "gpio": 5,
+      "active_low": true,
+      "raw": "out/5/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 36,
+      "active_low": true,
+      "raw": "out/36/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 7,
+      "active_low": true,
+      "raw": "out/7/0"
+    },
+    {
+      "name": "wlan6g",
+      "gpio": 21,
+      "active_low": true,
+      "raw": "out/21/0"
+    }
+  ],
+  "led_port_control": "user_wan",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 115200,
+  "internal_model": "IP04476",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "ax54b6e_ml_16_006.bin"
+}

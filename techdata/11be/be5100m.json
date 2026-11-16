@@ -1,0 +1,96 @@
+{
+  "model": "ipTIME BE5100M",
+  "target": "",
+  "bootloader": "",
+  "soc": "Airoha AN7563PT",
+  "soc_vendor": "Airoha",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "an7563 + en8811h",
+  "wlan2_4": "mt7991a",
+  "wlan5": "mt7991a",
+  "wlan_driver": "",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 0,
+  "serial_port_info": "",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 7",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "en8811h",
+  "switch_mapping": [
+    {
+      "label": "WAN(ae_wan)",
+      "switch": "en8811h",
+      "port": "",
+      "role": "wan"
+    },
+    {
+      "label": "LAN1(eth0.4)",
+      "switch": "an7563",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2(eth0.3)",
+      "switch": "an7563",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3(eth0.2)",
+      "switch": "an7563",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4(eth0.1)",
+      "switch": "an7563",
+      "port": "0",
+      "role": "lan mirror"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 0,
+      "active_low": true,
+      "raw": "in/0/0"
+    },
+    "wps": {
+      "gpio": 5,
+      "active_low": true,
+      "raw": "in/5/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 20,
+      "active_low": true,
+      "raw": "out/20/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 12,
+      "active_low": true,
+      "raw": "out/12/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 27,
+      "active_low": true,
+      "raw": "out/27/0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": null,
+  "internal_model": "IP04548",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "be5100m_ml_16_006.bin"
+}

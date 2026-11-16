@@ -1,0 +1,10 @@
+name=ipTIME A2002SR
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+led_spec=sysled
+vendor=efm
+easymesh.support_type=3
+easymesh.support_role=3
+easymesh.icon=router_016
+code=a2002sr

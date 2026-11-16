@@ -1,0 +1,96 @@
+{
+  "model": "ipTIME A3004",
+  "target": "",
+  "bootloader": "",
+  "soc": "Broadcom Cortex-A9",
+  "soc_vendor": "Broadcom",
+  "flash": "8MB",
+  "ram": "128MB",
+  "switch": "internal",
+  "wlan2_4": "bcm4360",
+  "wlan5": "bcm4360",
+  "wlan_driver": "",
+  "usb": 0,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 115200bps (OEM kernel console=ttyS0,115200)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "internal",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "internal",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "internal",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "internal",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "internal",
+      "port": "0",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 11,
+      "active_low": null,
+      "raw": "11"
+    },
+    "wps": {
+      "gpio": 7,
+      "active_low": null,
+      "raw": "7"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 6,
+      "active_low": null,
+      "raw": "6"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 3,
+      "active_low": null,
+      "raw": "3"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 0,
+      "active_low": null,
+      "raw": "0"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 115200,
+  "internal_model": "",
+  "firmware_git_commit": "",
+  "firmware_git_branch": "",
+  "si_source": "a3004_kr_10_082.bin"
+}

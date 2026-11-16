@@ -1,0 +1,10 @@
+name=ipTIME AX7800M-6E
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.support_type=3
+easymesh.support_role=3
+easymesh.icon=router_004
+firmup_util_url=
+code=ax7800m

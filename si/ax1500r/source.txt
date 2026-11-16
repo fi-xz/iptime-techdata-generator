@@ -1,0 +1,2 @@
+firmware=ax1500r_ml_16_006.bin
+si_dir=ax1500r//oem_firmware/_ax1500r_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

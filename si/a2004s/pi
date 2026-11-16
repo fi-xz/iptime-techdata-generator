@@ -1,0 +1,9 @@
+name=ipTIME A2004S
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.support_type=3
+easymesh.support_role=3
+easymesh.icon=router_005
+code=a2004s

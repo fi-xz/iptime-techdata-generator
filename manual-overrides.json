@@ -1,0 +1,7 @@
+{
+  "_comment": "수동 보정값. 키는 모델명(표기 무관), 값은 techdata 필드. pnpm start 시 마지막에 덮어씀. uart_exposed 기본값은 true.",
+  "AX3000plus": {
+    "uart_exposed": false,
+    "uart_note": "UART 핀 외부 미노출, 패드에 직접 납땜 필요"
+  }
+}

@@ -1,0 +1,97 @@
+preinit_wl_tag[0]=2g
+preinit_wl_tag[1]=5g
+
+wifi_reg[0].country=KR
+
+wifi_reg[0].band[b_2g].power.unit=percent
+wifi_reg[0].band[b_2g].power.max=30
+# CCK
+wifi_reg[0].band[b_2g].reg_cmd[0]=mtke2p 2g 0xbe=0xc0
+wifi_reg[0].band[b_2g].reg_cmd[1]=mtke2p 2g 0xbf=0xc0
+# OFDM
+wifi_reg[0].band[b_2g].reg_cmd[2]=mtke2p 2g 0xc0=0xc4
+wifi_reg[0].band[b_2g].reg_cmd[3]=mtke2p 2g 0xc1=0xc4
+wifi_reg[0].band[b_2g].reg_cmd[4]=mtke2p 2g 0xc2=0xc4
+wifi_reg[0].band[b_2g].reg_cmd[5]=mtke2p 2g 0xc3=0x0
+wifi_reg[0].band[b_2g].reg_cmd[6]=mtke2p 2g 0xc4=0x0
+
+# HT20 MCS0/8/16/24
+wifi_reg[0].band[b_2g].reg_cmd[7]=mtke2p 2g 0xc5=0xC2
+# HT40 MCS=32
+wifi_reg[0].band[b_2g].reg_cmd[8]=mtke2p 2g 0xc6=0x0
+# HT20 MCS=1,2/9,10/..
+wifi_reg[0].band[b_2g].reg_cmd[9]=mtke2p 2g 0xc7=0xC2
+# HT20 MCS=3,4/11,12/..
+wifi_reg[0].band[b_2g].reg_cmd[10]=mtke2p 2g 0xc8=0xc1
+# 0xc9 : 0x81
+# HT20 MCS=5/13/21/29
+# 0xca : 0x81
+# HT20 MCS=6/14/22/30
+# 0xcb : 0x81
+# HT20 MCS=7/15/23/31
+# 0xcc : 85
+# VHT20 MCS=8
+
+# HT40 MCS=0/8/16/24
+wifi_reg[0].band[b_2g].reg_cmd[11]=mtke2p 2g 0xcd=0xc2
+# HT40 MCS=1,2/9,10...
+wifi_reg[0].band[b_2g].reg_cmd[12]=mtke2p 2g 0xce=0xc2
+# HT40 MCS=3,4/11,12...
+wifi_reg[0].band[b_2g].reg_cmd[13]=mtke2p 2g 0xcf=0x0
+
+# 0xd0: 0x82
+# HT40 MCS=5/13/21/29
+# 0xd1 : 0x82
+# HT40 MCS=6/14/22/30
+# 0xd2 : 0x82
+# HT40 MCS=7/54/23/31
+# 0xd3 : 0x81
+# VHT40 PowerDelta
+# 0xd4 : 0x00
+# VHT40 PowerDelta for VHT40 duplcate mode
+
+wifi_reg[0].band[b_unii_1].power.unit=percent
+wifi_reg[0].band[b_unii_1].power.max=100
+wifi_reg[0].band[b_unii_1].reg_cmd[0]=mtke2p 5g2 0xd5=0xc0
+wifi_reg[0].band[b_unii_1].reg_cmd[1]=mtke2p 5g2 0xd6=0xc0
+
+wifi_reg[0].band[b_unii_2a].power.unit=percent
+wifi_reg[0].band[b_unii_2a].power.max=100
+wifi_reg[0].band[b_unii_2a].reg_cmd[0]=mtke2p 5g2 0xd5=0xc5
+wifi_reg[0].band[b_unii_2a].reg_cmd[1]=mtke2p 5g2 0xd6=0xc5
+
+wifi_reg[0].band[b_unii_2b].power.unit=percent
+wifi_reg[0].band[b_unii_2b].power.max=100
+wifi_reg[0].band[b_unii_2b].reg_cmd[0]=mtke2p 5g2 0xd5=0xc5
+wifi_reg[0].band[b_unii_2b].reg_cmd[1]=mtke2p 5g2 0xd6=0xc5
+
+wifi_reg[0].band[b_unii_2c].power.unit=percent
+wifi_reg[0].band[b_unii_2c].power.max=100
+wifi_reg[0].band[b_unii_2c].reg_cmd[0]=mtke2p 5g 0xd5=0xc3
+wifi_reg[0].band[b_unii_2c].reg_cmd[1]=mtke2p 5g 0xd6=0xc3
+
+wifi_reg[0].band[b_unii_3].power.unit=percent
+wifi_reg[0].band[b_unii_3].power.max=100
+wifi_reg[0].band[b_unii_3].reg_cmd[0]=mtke2p 5g 0xd5=0xc0
+wifi_reg[0].band[b_unii_3].reg_cmd[1]=mtke2p 5g 0xd6=0xc0
+
+wifi_reg[0].channel[0].wl_tag=5g2
+wifi_reg[0].channel[0].number=48
+wifi_reg[0].channel[0].bw=0
+wifi_reg[0].channel[0].power.unit=percent
+wifi_reg[0].channel[0].power.max=30
+wifi_reg[0].channel[1].wl_tag=5g2
+wifi_reg[0].channel[1].number=44
+wifi_reg[0].channel[1].bw=40
+wifi_reg[0].channel[1].power.unit=percent
+wifi_reg[0].channel[1].power.max=30
+wifi_reg[0].channel[2].wl_tag=5g2
+wifi_reg[0].channel[2].number=44
+wifi_reg[0].channel[2].bw=80
+wifi_reg[0].channel[2].power.unit=percent
+wifi_reg[0].channel[2].power.max=30
+wifi_reg[0].channel_5g_lp=48:*,44:40,44:80
+
+encryption[2g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g2]=open wpa wpa2 psk psk2 sae tkip aes owe

@@ -1,0 +1,11 @@
+name=ipTIME A2004MU
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.icon=router_005
+easymesh.support_type=2
+easymesh.support_role=2
+easymesh.support_func=led|speed_test|wired_stt|wireless_stt|wps|wired_bh|wireless_bh|dfs|guest_network|expert_wifi
+
+code=a2004m

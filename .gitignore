@@ -1,0 +1,4 @@
+firmware/
+node_modules/
+cache/
+snapshot.json

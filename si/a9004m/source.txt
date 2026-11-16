@@ -1,0 +1,2 @@
+firmware=a9004m_ml_16_006.bin
+si_dir=a9004m//oem_firmware/_a9004m_ml_16_006.bin.extracted/_3E84.extracted/_B41114.extracted/cpio-root/default/var/run/si

@@ -1,0 +1,120 @@
+{
+  "model": "ipTIME BE19000QCA",
+  "target": "",
+  "bootloader": "",
+  "soc": "Qualcomm IPQ5424",
+  "soc_vendor": "Qualcomm",
+  "flash": "256MB NAND",
+  "ram": "2GB",
+  "switch": "rtl8372n + qca8111",
+  "wlan2_4": "qcn5224",
+  "wlan5": "qcn6224",
+  "wlan_driver": "ath12k",
+  "usb": 1,
+  "ethernet_ports": 6,
+  "serial_port": 1,
+  "serial_port_info": "ttyMSM0 115200bps (OEM kernel console=ttyMSM0,115200n8)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 7",
+  "wlan5_2": "",
+  "wlan6": "qcn6274",
+  "switch_ext": "qca8111",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "rtl8372n",
+      "port": "7",
+      "role": "lan iptv mirror"
+    },
+    {
+      "label": "LAN2",
+      "switch": "rtl8372n",
+      "port": "6",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "rtl8372n",
+      "port": "5",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "rtl8372n",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "CPU-LINK",
+      "switch": "rtl8372n",
+      "port": "3",
+      "role": "joint"
+    },
+    {
+      "label": "LAN5(eth1)",
+      "switch": "qca8111",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "CPU-LINK(eth2)",
+      "switch": "qca8111",
+      "port": "2",
+      "role": "joint"
+    },
+    {
+      "label": "WAN(eth0)",
+      "switch": "qca8111",
+      "port": "0",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": 512,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 19,
+      "active_low": true,
+      "raw": "in/19/0"
+    },
+    "wps": {
+      "gpio": 11,
+      "active_low": true,
+      "raw": "in/11/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 14,
+      "active_low": false,
+      "raw": "out/14/1"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 42,
+      "active_low": false,
+      "raw": "sys_led/42/1"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 46,
+      "active_low": false,
+      "raw": "sys_led/46/1"
+    },
+    {
+      "name": "wlan6g",
+      "gpio": 45,
+      "active_low": false,
+      "raw": "sys_led/45/1"
+    }
+  ],
+  "led_port_control": "",
+  "fan": true,
+  "fan_info": "board.fan.pwm[0].id=0/1, board.fan.pwm[0].polarity=inversed, board.fan.pwm[0].period=40000",
+  "uart_baudrate": 115200,
+  "internal_model": "WR19000BE",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "be19000qca_ml_16_006.bin"
+}

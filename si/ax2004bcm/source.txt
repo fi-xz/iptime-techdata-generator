@@ -1,0 +1,2 @@
+firmware=ax2004b_ml_16_006.bin
+si_dir=ax2004bcm//oem_firmware/_ax2004b_ml_16_006.bin.extracted/ubifs-root/391300057/rootfs_ubifs/default/var/run/si

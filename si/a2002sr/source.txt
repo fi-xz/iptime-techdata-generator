@@ -1,0 +1,2 @@
+firmware=a2002sr_ml_16_006.bin
+si_dir=a2002sr//oem_firmware/_a2002sr_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

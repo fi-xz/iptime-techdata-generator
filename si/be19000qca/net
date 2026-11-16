@@ -1,0 +1,38 @@
+ethdev[0].name=qca8111
+ethdev[0].supported=100f 1000f 2500f 5000f 10000f
+
+ethdev[1].name=rtl8372n
+ethdev[1].role=lan iptv
+ethdev[1].supported=10h 10f 100h 100f 1000f 2500f
+
+eport[0].role=lan iptv mirror
+eport[0].reg=7
+eport[0].derived=rtl8372n
+
+eport[1].reg=6
+eport[1].derived=rtl8372n
+
+eport[2].reg=5
+eport[2].derived=rtl8372n
+
+eport[3].reg=4
+eport[3].derived=rtl8372n
+
+eport[4].role=joint
+eport[4].reg=3
+eport[4].derived=rtl8372n
+
+eport[5].role=lan
+eport[5].reg=1
+eport[5].ifname=eth1
+eport[5].derived=qca8111
+
+eport[6].role=joint
+eport[6].reg=2
+eport[6].ifname=eth2
+eport[6].derived=qca8111
+
+eport[7].role=wan
+eport[7].reg=0
+eport[7].ifname=eth0
+eport[7].derived=qca8111

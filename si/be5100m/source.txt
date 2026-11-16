@@ -1,0 +1,2 @@
+firmware=be5100m_ml_16_006.bin
+si_dir=be5100m//oem_firmware/_be5100m_ml_16_006.bin.extracted/squashfs-root/opt/efm/default/var/run/si

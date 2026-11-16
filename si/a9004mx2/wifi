@@ -1,0 +1,6 @@
+dbdc_wl_tags=5g,2g
+preinit_wl_tag[0]=5g
+
+encryption[2g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g2]=open wpa wpa2 psk psk2 sae tkip aes owe

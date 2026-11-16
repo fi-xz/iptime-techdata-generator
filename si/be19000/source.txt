@@ -1,0 +1,2 @@
+firmware=be19000_ml_16_006.bin
+si_dir=be19000//oem_firmware/_be19000_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

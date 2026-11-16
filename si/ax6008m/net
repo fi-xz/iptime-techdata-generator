@@ -1,0 +1,45 @@
+ethdev[0].name=mt7986
+ethdev[0].supported=10h 10f 100h 100f 1000f 2500f
+
+ethdev[1].name=rtl8370mb
+ethdev[1].role=lan iptv
+ethdev[1].supported=10h 10f 100h 100f 1000f
+
+eport[0].role=wan
+eport[0].reg=6
+eport[0].ifname=eth0
+eport[0].derived=mt7986
+
+eport[1].role=joint
+eport[1].ifname=eth1
+eport[1].derived=mt7986
+
+eport[2].reg=0
+eport[2].derived=rtl8370mb
+
+eport[3].reg=1
+eport[3].derived=rtl8370mb
+
+eport[4].reg=2
+eport[4].derived=rtl8370mb
+
+eport[5].reg=3
+eport[5].derived=rtl8370mb
+
+eport[6].reg=4
+eport[6].derived=rtl8370mb
+
+eport[7].reg=5
+eport[7].derived=rtl8370mb
+
+eport[8].role=lan trunk
+eport[8].reg=6
+eport[8].derived=rtl8370mb
+
+eport[9].role=lan trunk mirror
+eport[9].reg=7
+eport[9].derived=rtl8370mb
+
+eport[10].role=joint
+eport[10].reg=17
+eport[10].derived=rtl8370mb

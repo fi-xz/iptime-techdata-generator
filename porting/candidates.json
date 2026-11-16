@@ -1,0 +1,6075 @@
+{
+  "generated_at": "2026-11-16T02:34:33.735Z",
+  "snapshot": {
+    "fetched_at": "2026-11-16T02:31:12.107Z",
+    "openwrt_tree_sha": "7424e2ca306c801eaf9c9dee23545af1a4e66d20"
+  },
+  "options": {
+    "mediatek_only": false,
+    "max_price": null,
+    "sort": "score",
+    "stale_days": 180
+  },
+  "candidates": [
+    {
+      "model": "ipTIME A3004M",
+      "key": "a3004m",
+      "score": 78,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2022.09",
+      "oem_id": "a3004m",
+      "price_krw": 110000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04316B = A3002MESH (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3004m)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3002MESH"
+      ],
+      "internal_model": "IP04316B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004M",
+        "iptime": "https://iptime.com/products/651"
+      },
+      "rank": 1
+    },
+    {
+      "model": "ipTIME A3004TW",
+      "key": "a3004tw",
+      "score": 76,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2022.06",
+      "oem_id": "a3004tw",
+      "price_krw": 61490,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04316B = A3002MESH (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3004tw)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3002MESH"
+      ],
+      "internal_model": "IP04316B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004TW",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004TW",
+        "iptime": "https://iptime.com/products/619"
+      },
+      "rank": 2
+    },
+    {
+      "model": "ipTIME AX3008M",
+      "key": "ax3008m",
+      "score": 74,
+      "status": "candidate",
+      "soc": "MediaTek MT7981B",
+      "family": "mt7981",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 9,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2024.07",
+      "oem_id": "ax3008m",
+      "price_krw": 155100,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7981 (upstream DTS 134개) — mediatek/filogic: ipTIME AX3000 계열 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX3000M, AX3000Q, AX3000SE, AX3000SM"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NAND/eMMC — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "OEM 파티션 레이아웃",
+          "points": 12,
+          "detail": "AX3000M와(과) identical (label Jaccard 1.00)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax3008m/ax3008m_ml_16_006.bin @0x33c214 (mediatek,mt7981-spim-snand-rtk)"
+        },
+        {
+          "label": "형제 대비 신규 HW 블록",
+          "points": -2,
+          "detail": "mediatek,mt7981-spim-snand-rtk, mediatek,rtk-gsw"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `mediatek,rtk-gsw`, si 스위치: rtl8370mb): OEM은 Realtek SDK 스위치 드라이버(`rtk-gsw`)로 외장 Realtek 스위치를 제어 — upstream에서는 DSA rtl8365mb로 대체 (칩 지원 여부는 스위치 경고 참고)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'ax3008m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7976 / mt7976"
+        },
+        {
+          "label": "포트 구성",
+          "points": -4,
+          "detail": "9포트(8 LAN) — 외장/캐스케이드 스위치 여부 확인 필요"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8370mb): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000m.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000q.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000se.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000sm.dts"
+      ],
+      "sibling_layouts": [
+        {
+          "model": "ipTIME AX3000M",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000Q",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000SE",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000SM",
+          "match": "identical",
+          "jaccard": 1
+        }
+      ],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04535A",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x200000, FIP@0x380000+0x200000, ubi@0x580000+0x6e00000",
+      "oem_compatible": [
+        "mediatek,mt7981-spim-snand-rtk"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3008M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3008M",
+        "iptime": "https://iptime.com/products/793"
+      },
+      "rank": 3
+    },
+    {
+      "model": "ipTIME AX6008M",
+      "key": "ax6008m",
+      "score": 69,
+      "status": "candidate",
+      "soc": "MediaTek MT7986A",
+      "family": "mt7986",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 9,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2024.07",
+      "oem_id": "ax6008m",
+      "price_krw": 189000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 33,
+          "detail": "mt7986 (upstream DTS 49개) — mediatek/filogic: 성숙, Wi-Fi(mt7915/mt7986) 안정"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX7800M-6E"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NAND/eMMC — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "OEM 파티션 레이아웃",
+          "points": 12,
+          "detail": "AX7800M-6E와(과) identical (label Jaccard 1.00)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax6008m/ax6008m_ml_16_006.bin @0x3e1014 (mediatek,mt7986a-spim-snand-rfb)"
+        },
+        {
+          "label": "형제 대비 신규 HW 블록",
+          "points": -5,
+          "detail": "mediatek,mt7986a-spim-snand-rfb, mediatek,mt79xx-si3218x-machine, mediatek,mt79xx-wm8960-machine, mediatek,rtk-gsw, silabs,proslic_spi"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `mediatek,rtk-gsw`, si 스위치: rtl8370mb): OEM은 Realtek SDK 스위치 드라이버(`rtk-gsw`)로 외장 Realtek 스위치를 제어 — upstream에서는 DSA rtl8365mb로 대체 (칩 지원 여부는 스위치 경고 참고)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'ax6008m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7975 / mt7975"
+        },
+        {
+          "label": "포트 구성",
+          "points": -4,
+          "detail": "9포트(8 LAN) — 외장/캐스케이드 스위치 여부 확인 필요"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8370mb): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [
+        "target/linux/mediatek/dts/mt7986a-iptime-ax7800m-6e.dts"
+      ],
+      "sibling_layouts": [
+        {
+          "model": "ipTIME AX7800M-6E",
+          "match": "identical",
+          "jaccard": 1
+        }
+      ],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP4533",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x200000, FIP@0x380000+0x200000, ubi@0x580000+0x6e00000",
+      "oem_compatible": [
+        "mediatek,mt7986a-spim-snand-rfb"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX6008M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX6008M",
+        "iptime": "https://iptime.com/products/791"
+      },
+      "rank": 4
+    },
+    {
+      "model": "ipTIME AX2004",
+      "key": "ax2004",
+      "score": 68,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2022.10",
+      "oem_id": "ax2004",
+      "price_krw": 53590,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "OEM 파티션 레이아웃",
+          "points": 4,
+          "detail": "AX2002MESH와(과) partial (label Jaccard 0.57)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax2004/ax2004_ml_16_006.bin @0x37ff44 (mediatek,mt7621-rfb-nor-ax2004, mediatek,mt7621-soc)"
+        },
+        {
+          "label": "형제 대비 신규 HW 블록",
+          "points": -2,
+          "detail": "jedec,spi-nor, mediatek,mt7621-rfb-nor-ax2004"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "MediaTek SDK mt753x (OEM DTB `mediatek,mt753x`, si 스위치: mt7621): OEM은 MediaTek SDK 전용 `mt753x` gsw 드라이버를 씀 (upstream에 없는 바인딩) — OEM 스위치 노드는 그대로 못 쓰고 upstream DSA 노드(`mediatek,mt7621` 내장 스위치 또는 `mediatek,mt7531`)로 새로 써야 함. 포트 번호는 si switch_mapping 기준 · upstream 형제 AX2002MESH, AX2004M도 OEM이 동일 → 형제 DTS의 스위치 노드 재사용"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'ax2004' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7915 / mt7915"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [
+        {
+          "model": "ipTIME AX2002MESH",
+          "match": "partial",
+          "jaccard": 0.5714285714285714
+        },
+        {
+          "model": "ipTIME AX2004M",
+          "match": "partial",
+          "jaccard": 0.5714285714285714
+        }
+      ],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "Bootloader@0x0+0x40000, Config@0x40000+0x10000, Factory@0x50000+0x40000, firmware@0x90000+0xf00000, rootfs_data@0xf90000+0x70000",
+      "oem_compatible": [
+        "mediatek,mt7621-rfb-nor-ax2004",
+        "mediatek,mt7621-soc"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX2004",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX2004",
+        "iptime": "https://iptime.com/products/655"
+      },
+      "rank": 5
+    },
+    {
+      "model": "ipTIME A9004M-X2",
+      "key": "a9004mx2",
+      "score": 68,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2019.12",
+      "oem_id": "a9004x2",
+      "price_krw": 285000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NAND/eMMC — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a9004x2)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615 / mt7613e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04417A",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A9004M-X2",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A9004M-X2",
+        "iptime": "https://iptime.com/products/437"
+      },
+      "rank": 6
+    },
+    {
+      "model": "ipTIME A7004M",
+      "key": "a7004m",
+      "score": 68,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.07",
+      "oem_id": "a7004m",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a7004m)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04372",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A7004M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A7004M",
+        "iptime": "https://iptime.com/products/376"
+      },
+      "rank": 7
+    },
+    {
+      "model": "ipTIME A3003NS",
+      "key": "a3003ns",
+      "score": 66,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 4,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.05",
+      "oem_id": "a3003ns",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3003ns)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7603e / mt7612e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04317",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3003NS",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3003NS",
+        "iptime": "https://iptime.com/products/331"
+      },
+      "rank": 8
+    },
+    {
+      "model": "ipTIME A5004NS-M",
+      "key": "a5004nsm",
+      "score": 66,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.04",
+      "oem_id": "a5004nm",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a5004nm)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04346A",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A5004NS-M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A5004NS-M",
+        "iptime": "https://iptime.com/products/370"
+      },
+      "rank": 9
+    },
+    {
+      "model": "ipTIME A3004-dual",
+      "key": "a3004dual",
+      "score": 55,
+      "status": "candidate",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "4MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.11",
+      "oem_id": "a3004d",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04290B = A3004ns-dual (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3004d)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7602e / mt7612e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "4MB 플래시: 현행 OpenWrt 이미지 불가"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3004ns-dual"
+      ],
+      "internal_model": "IP04290B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004-dual",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004-dual",
+        "iptime": "https://iptime.com/products/277"
+      },
+      "rank": 10
+    },
+    {
+      "model": "ipTIME A604-V3",
+      "key": "a604v3",
+      "score": 51,
+      "status": "candidate",
+      "soc": "MediaTek MT7628A",
+      "family": "mt7628",
+      "target_guess": "ramips",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.09",
+      "oem_id": "a604v3",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 18,
+          "detail": "mt7628 (upstream DTS 138개) — ramips/mt76x8: 성숙하지만 저사양(8/64) 위주"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: A3, A604M"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04304 = A3, A604M (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a604v3)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "internal"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7628an_iptime_a3.dts",
+        "target/linux/ramips/dts/mt7628an_iptime_a604m.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3",
+        "ipTIME A604M"
+      ],
+      "internal_model": "IP04304",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604-V3",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604-V3",
+        "iptime": "https://iptime.com/products/349"
+      },
+      "rank": 11
+    },
+    {
+      "model": "ipTIME A104",
+      "key": "a104",
+      "score": 49,
+      "status": "candidate",
+      "soc": "MediaTek MT7620A",
+      "family": "mt7620",
+      "target_guess": "ramips",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2013.11",
+      "oem_id": "a104",
+      "price_krw": 129000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 16,
+          "detail": "mt7620 (upstream DTS 140개) — ramips/mt7620: 레거시, 저사양 보드는 이미지 크기 압박"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: A1004NS, A104ns"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04253B = A1004NS, A104ns (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a104)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "internal / mt7610e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7620a_iptime_a1004ns.dts",
+        "target/linux/ramips/dts/mt7620a_iptime_a104ns.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A1004NS",
+        "ipTIME A104ns"
+      ],
+      "internal_model": "IP04253B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A104",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A104",
+        "iptime": "https://iptime.com/products/215"
+      },
+      "rank": 12
+    },
+    {
+      "model": "ipTIME A8004T-XR",
+      "key": "a8004txr",
+      "score": 49,
+      "status": "candidate",
+      "soc": "MediaTek MT7622",
+      "family": "mt7622",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2019.12",
+      "oem_id": "a8txr",
+      "price_krw": 500000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 30,
+          "detail": "mt7622 (upstream DTS 24개) — mediatek/mt7622: 성숙, 단 신규 보드 유입은 적음"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ac_11n/a8004txr/a8txr_ml_16_006.bin @0x28499c (mediatek,mt7622-ac2600rfb1, mediatek,mt7622)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `mediatek,rtk-gsw`, si 스위치: mt7531): si에는 Realtek 스위치가 없음 → SDK 공통 DTS에 남은 미사용 노드로 보임, 포팅 시 무시"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'a8txr' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7622 / mt7615"
+        }
+      ],
+      "warnings": [
+        "스위치 MediaTek SDK mt753x (OEM DTB `mediatek,mt753x`, si 스위치: mt7531): OEM은 MediaTek SDK 전용 `mt753x` gsw 드라이버를 씀 (upstream에 없는 바인딩) — OEM 스위치 노드는 그대로 못 쓰고 upstream DSA 노드(`mediatek,mt7621` 내장 스위치 또는 `mediatek,mt7531`)로 새로 써야 함. 포트 번호는 si switch_mapping 기준"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04377A",
+      "oem_layout": "Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x40000, Kernel@0x200000+0x2000000, User_data@0x2200000+0x4000000, Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x40000, KernelA@0x200000+0x2000000, KernelB@0x2200000+0x2000000, User_data@0x4200000+0x33c0000, Preloader@0x0+0x40000, ATF@0x40000+0x20000, Bootloader@0x60000+0x40000, Config@0xa0000+0x20000, Factory@0xc0000+0x20000, Kernel@0xe0000+0xf20000",
+      "oem_compatible": [
+        "mediatek,mt7622-ac2600rfb1",
+        "mediatek,mt7622"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A8004T-XR",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A8004T-XR",
+        "iptime": "https://iptime.com/products/439"
+      },
+      "rank": 13
+    },
+    {
+      "model": "ipTIME BE7200M",
+      "key": "be7200m",
+      "score": 47,
+      "status": "candidate",
+      "soc": "MediaTek MT7988",
+      "family": "mt7988",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2026.10",
+      "oem_id": "be7200m",
+      "price_krw": 165400,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 28,
+          "detail": "mt7988 (upstream DTS 17개) — mediatek/filogic: Wi-Fi 7(mt7996) 지원 중, 아직 활발히 변하는 중"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be7200m/be7200m_ml_16_006.bin @0x388d7c (efm,be7200m-snand, efm,be7200m, mediatek,mt7988)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `realtek,rtk-8372n-gsw`, si 스위치: mt7988 + rtl8372n): OEM은 Realtek SDK 스위치 드라이버(`rtk-gsw`)로 외장 Realtek 스위치를 제어 — upstream에서는 DSA rtl8365mb로 대체 (칩 지원 여부는 스위치 경고 참고)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'be7200m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7992av / mt7992av"
+        }
+      ],
+      "warnings": [
+        "스위치(mt7988 + rtl8372n): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x400000, FIP@0x580000+0x200000, ubi@0x780000+0x7080000",
+      "oem_compatible": [
+        "efm,be7200m-snand",
+        "efm,be7200m",
+        "mediatek,mt7988"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE7200M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE7200M",
+        "iptime": "https://iptime.com/products/1003"
+      },
+      "rank": 14
+    },
+    {
+      "model": "ipTIME BE5100M",
+      "key": "be5100m",
+      "score": 45,
+      "status": "candidate",
+      "soc": "Airoha AN7563PT",
+      "family": "an7563",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2025.05",
+      "oem_id": "be5100m",
+      "price_krw": 82390,
+      "used_price_krw": 95000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 14,
+          "detail": "an7563 (upstream DTS 0개) — airoha/an7563 미머지 — openwrt#23960(AN7563/AN7552 + Xiaomi BE5000, CHANGES_REQUESTED), openwrt#26339(AN7563 base + TP-Link XX530v v2, 2026-10 신규) 리뷰 중. 어느 쪽이 머지되느냐에 따라 보드 DTS 라벨/드라이버가 바뀔 수 있음"
+        },
+        {
+          "label": "비공식 포팅 존재",
+          "points": 15,
+          "detail": "junkim0215/openwrt be5100m-r115: BE5100M 보드 커밋 4개(1개 revert)가 AN7563 비공식 포팅(Iscle·Ray Liu·Pavel Bragin, Xiaomi BE5000용 ~110커밋) 위에 얹힘. 스톡 듀얼슬롯 유지(tclinux_slave에 설치, 스톡 웹 UI factory.bin), Factory nvmem MAC/EEPROM, mt7996e(MT7992)+NPU 오프로드 (https://github.com/junkim0215/openwrt/commits/be5100m-r115/)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be5100m/be5100m_ml_16_006.bin @0x2234 (econet,en7523, airoha,en7523)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'be5100m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7991a / mt7991a"
+        }
+      ],
+      "warnings": [
+        "[포팅 리뷰] DTS에 gpio-keys 없음 — si 기준 reset=GPIO0, wps=GPIO5 (active-low) 추가 필요 (failsafe/리셋 불가)",
+        "[포팅 리뷰] LAN 라벨 순서 확인 필요 — si net은 물리 LAN1→switch reg3 … LAN4→reg0 (역순), DTS는 gsw_port1..4 = lan1..4 오름차순",
+        "[포팅 리뷰] SoC 레벨 노드(usb@1fab0000, usb phy, /memreserve/ ATF)가 보드 DTS에 있음 — an7563.dtsi로 이동해야 upstream 리뷰 통과",
+        "[포팅 리뷰] 이미지 생성이 scripts/iptime-be-image.py(Python) — upstream 관례상 firmware-utils C 도구로 옮겨야 함",
+        "[포팅 리뷰] 스톡 U-Boot의 root=/dev/mtdblockN에 맞추려고 파티션 DT 순서를 주소 순서와 다르게 배치 — 리뷰어가 문제 삼을 가능성 큼",
+        "[포팅 리뷰] en8811h 'airoha,led-active-low' 커스텀 DT 속성 패치 — 바인딩 upstream 필요",
+        "[포팅 리뷰] 브랜치에 VPN/xray/NPU 펌웨어 등 보드와 무관한 커밋 다수 — PR 시 보드 커밋만 분리 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "https://github.com/junkim0215/openwrt/commits/be5100m-r115/",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04548",
+      "oem_layout": "",
+      "oem_compatible": [
+        "econet,en7523",
+        "airoha,en7523"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE5100M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE5100M",
+        "iptime": "https://iptime.com/products/879"
+      },
+      "rank": 15
+    },
+    {
+      "model": "ipTIME AX8008M",
+      "key": "ax8008m",
+      "score": 45,
+      "status": "candidate",
+      "soc": "MediaTek MT7622",
+      "family": "mt7622",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 9,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2022.05",
+      "oem_id": "ax8008m",
+      "price_krw": 220000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 30,
+          "detail": "mt7622 (upstream DTS 24개) — mediatek/mt7622: 성숙, 단 신규 보드 유입은 적음"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax8008m/ax8008m_ml_16_006.bin @0x22e790 (mediatek,mt7622-ac2600rfb1, mediatek,mt7622)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `mediatek,rtk-gsw`, si 스위치: mt7531 + rtl8370 (cpu-switch port 0)): OEM은 Realtek SDK 스위치 드라이버(`rtk-gsw`)로 외장 Realtek 스위치를 제어 — upstream에서는 DSA rtl8365mb로 대체 (칩 지원 여부는 스위치 경고 참고)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'ax8008m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7622 / mt7915"
+        },
+        {
+          "label": "포트 구성",
+          "points": -4,
+          "detail": "9포트(8 LAN) — 외장/캐스케이드 스위치 여부 확인 필요"
+        }
+      ],
+      "warnings": [
+        "스위치 MediaTek SDK mt753x (OEM DTB `mediatek,mt753x`, si 스위치: mt7531 + rtl8370 (cpu-switch port 0)): OEM은 MediaTek SDK 전용 `mt753x` gsw 드라이버를 씀 (upstream에 없는 바인딩) — OEM 스위치 노드는 그대로 못 쓰고 upstream DSA 노드(`mediatek,mt7621` 내장 스위치 또는 `mediatek,mt7531`)로 새로 써야 함. 포트 번호는 si switch_mapping 기준",
+        "스위치(mt7531 + rtl8370 (cpu-switch port 0)): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP0445",
+      "oem_layout": "Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x100000, Kernel@0x2c0000+0x2000000, User_data@0x22c0000+0x4000000, Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x40000, firmware1@0x200000+0x2000000, firmware2@0x2200000+0x2000000, rootfs_data@0x4200000+0x3000000, Preloader@0x0+0x40000, ATF@0x40000+0x20000, Bootloader@0x60000+0x40000, Config@0xa0000+0x20000, Factory@0xc0000+0x80000, Kernel@0x140000+0xec0000",
+      "oem_compatible": [
+        "mediatek,mt7622-ac2600rfb1",
+        "mediatek,mt7622"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX8008M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX8008M",
+        "iptime": "https://iptime.com/products/617"
+      },
+      "rank": 16
+    },
+    {
+      "model": "ipTIME BE7208M",
+      "key": "be7208m",
+      "score": 43,
+      "status": "candidate",
+      "soc": "MediaTek MT7988",
+      "family": "mt7988",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 9,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2026.10",
+      "oem_id": "be7208m",
+      "price_krw": 184370,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 28,
+          "detail": "mt7988 (upstream DTS 17개) — mediatek/filogic: Wi-Fi 7(mt7996) 지원 중, 아직 활발히 변하는 중"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be7208m/be7208m_ml_16_006.bin @0x388d7c (efm,be7208m-snand, efm,be7208m, mediatek,mt7988)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `realtek,rtk-8372n-gsw`, si 스위치: mt7988 + rtl8372n): OEM은 Realtek SDK 스위치 드라이버(`rtk-gsw`)로 외장 Realtek 스위치를 제어 — upstream에서는 DSA rtl8365mb로 대체 (칩 지원 여부는 스위치 경고 참고)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'be7208m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7992av / mt7992av"
+        },
+        {
+          "label": "포트 구성",
+          "points": -4,
+          "detail": "9포트(8 LAN) — 외장/캐스케이드 스위치 여부 확인 필요"
+        }
+      ],
+      "warnings": [
+        "스위치(mt7988 + rtl8372n): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "WR7201BE",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x400000, FIP@0x580000+0x200000, ubi@0x780000+0x7080000",
+      "oem_compatible": [
+        "efm,be7208m-snand",
+        "efm,be7208m",
+        "mediatek,mt7988"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE7208M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE7208M",
+        "iptime": "https://iptime.com/products/1002"
+      },
+      "rank": 17
+    },
+    {
+      "model": "ipTIME A9004M",
+      "key": "a9004m",
+      "score": 37,
+      "status": "candidate",
+      "soc": "MediaTek MT7623",
+      "family": "mt7623",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.04",
+      "oem_id": "a9004m",
+      "price_krw": 285000,
+      "used_price_krw": 70000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 22,
+          "detail": "mt7623 (upstream DTS 2개) — mediatek/mt7623: 레거시 성격"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'a9004m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04344B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A9004M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A9004M",
+        "iptime": "https://iptime.com/products/539"
+      },
+      "rank": 18
+    },
+    {
+      "model": "ipTIME A8004NS-M",
+      "key": "a8004nsm",
+      "score": 37,
+      "status": "candidate",
+      "soc": "MediaTek MT7623",
+      "family": "mt7623",
+      "target_guess": "mediatek",
+      "flash": "4GB eMMC",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.01",
+      "oem_id": "a8004nm",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 22,
+          "detail": "mt7623 (upstream DTS 2개) — mediatek/mt7623: 레거시 성격"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'a8004nm' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "4GB eMMC"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04294",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A8004NS-M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A8004NS-M",
+        "iptime": "https://iptime.com/products/317"
+      },
+      "rank": 19
+    },
+    {
+      "model": "ipTIME A8ns-M",
+      "key": "a8nsm",
+      "score": 37,
+      "status": "candidate",
+      "soc": "MediaTek MT7623",
+      "family": "mt7623",
+      "target_guess": "mediatek",
+      "flash": "128MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.12",
+      "oem_id": "a8nm",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 22,
+          "detail": "mt7623 (upstream DTS 2개) — mediatek/mt7623: 레거시 성격"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'a8nm' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04294",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A8ns-M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A8ns-M",
+        "iptime": "https://iptime.com/products/359"
+      },
+      "rank": 20
+    },
+    {
+      "model": "ipTIME BE3600plus",
+      "key": "be3600plus",
+      "score": 35,
+      "status": "candidate",
+      "soc": "Airoha AN7563PT",
+      "family": "an7563",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 4,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2026.09",
+      "oem_id": "be3600p",
+      "price_krw": 64700,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 14,
+          "detail": "an7563 (upstream DTS 0개) — airoha/an7563 미머지 — openwrt#23960(AN7563/AN7552 + Xiaomi BE5000, CHANGES_REQUESTED), openwrt#26339(AN7563 base + TP-Link XX530v v2, 2026-10 신규) 리뷰 중. 어느 쪽이 머지되느냐에 따라 보드 DTS 라벨/드라이버가 바뀔 수 있음"
+        },
+        {
+          "label": "같은 SoC 비공식 포팅",
+          "points": 5,
+          "detail": "BE5100M 포팅을 템플릿으로 사용 가능"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be3600plus/be3600p_ml_16_006.bin @0x2234 (econet,en7523, airoha,en7523)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'be3600p' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7990an / mt7990an"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "WR3604BE",
+      "oem_layout": "",
+      "oem_compatible": [
+        "econet,en7523",
+        "airoha,en7523"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE3600plus",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE3600plus",
+        "iptime": "https://iptime.com/products/996"
+      },
+      "rank": 21
+    },
+    {
+      "model": "ipTIME BE3600M",
+      "key": "be3600m",
+      "score": 35,
+      "status": "candidate",
+      "soc": "Airoha AN7563PT",
+      "family": "an7563",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 4,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "단종",
+      "release_date": "2025.04",
+      "oem_id": "be3600m",
+      "price_krw": 71900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 14,
+          "detail": "an7563 (upstream DTS 0개) — airoha/an7563 미머지 — openwrt#23960(AN7563/AN7552 + Xiaomi BE5000, CHANGES_REQUESTED), openwrt#26339(AN7563 base + TP-Link XX530v v2, 2026-10 신규) 리뷰 중. 어느 쪽이 머지되느냐에 따라 보드 DTS 라벨/드라이버가 바뀔 수 있음"
+        },
+        {
+          "label": "같은 SoC 비공식 포팅",
+          "points": 5,
+          "detail": "BE5100M 포팅을 템플릿으로 사용 가능"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be3600m/be3600m_ml_16_006.bin @0x2234 (econet,en7523, airoha,en7523)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'be3600m' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7991a / mt7991a"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04547A",
+      "oem_layout": "",
+      "oem_compatible": [
+        "econet,en7523",
+        "airoha,en7523"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE3600M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE3600M",
+        "iptime": "https://iptime.com/products/877"
+      },
+      "rank": 22
+    },
+    {
+      "model": "ipTIME A1004",
+      "key": "a1004",
+      "score": 32,
+      "status": "candidate",
+      "soc": "MediaTek MT7620A",
+      "family": "mt7620",
+      "target_guess": "ramips",
+      "flash": "4MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.06",
+      "oem_id": "a1004",
+      "price_krw": 43900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 16,
+          "detail": "mt7620 (upstream DTS 140개) — ramips/mt7620: 레거시, 저사양 보드는 이미지 크기 압박"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: A1004NS, A104ns"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04253B = A1004NS, A104ns (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a1004)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "internal / mt7610e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7620a_iptime_a1004ns.dts",
+        "target/linux/ramips/dts/mt7620a_iptime_a104ns.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A1004NS",
+        "ipTIME A104ns"
+      ],
+      "internal_model": "IP04253B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A1004",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A1004",
+        "iptime": "https://iptime.com/products/232"
+      },
+      "rank": 23
+    },
+    {
+      "model": "ipTIME A1004V",
+      "key": "a1004v",
+      "score": 32,
+      "status": "candidate",
+      "soc": "MediaTek MT7620A",
+      "family": "mt7620",
+      "target_guess": "ramips",
+      "flash": "4MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.09",
+      "oem_id": "a1004v",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 16,
+          "detail": "mt7620 (upstream DTS 140개) — ramips/mt7620: 레거시, 저사양 보드는 이미지 크기 압박"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: A1004NS, A104ns"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04253B = A1004NS, A104ns (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a1004v)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "internal / mt7610e"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7620a_iptime_a1004ns.dts",
+        "target/linux/ramips/dts/mt7620a_iptime_a104ns.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A1004NS",
+        "ipTIME A104ns"
+      ],
+      "internal_model": "IP04253B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A1004V",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A1004V",
+        "iptime": "https://iptime.com/products/239"
+      },
+      "rank": 24
+    },
+    {
+      "model": "ipTIME AX3000R",
+      "key": "ax3000r",
+      "score": 20,
+      "status": "candidate",
+      "soc": "Realtek RTL8198",
+      "family": "rtl8198",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2024.06",
+      "oem_id": "ax3000r",
+      "price_krw": 53690,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 8,
+          "detail": "rtl8198 (upstream DTS 1개) — upstream 타겟은 있으나 MediaTek 외 (무선 드라이버/부트로더 제약 확인 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192xbr / rtl8832cr"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04498B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3000R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3000R",
+        "iptime": "https://iptime.com/products/785"
+      },
+      "rank": 25
+    },
+    {
+      "model": "ipTIME AX3004R",
+      "key": "ax3004r",
+      "score": 18,
+      "status": "candidate",
+      "soc": "Realtek RTL8198D",
+      "family": "rtl8198",
+      "target_guess": "",
+      "flash": "128MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2026.02",
+      "oem_id": "ax3004r",
+      "price_krw": 44100,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 8,
+          "detail": "rtl8198 (upstream DTS 1개) — upstream 타겟은 있으나 MediaTek 외 (무선 드라이버/부트로더 제약 확인 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192frh / rtl8832cr"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04498B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3004R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3004R",
+        "iptime": "https://iptime.com/products/955"
+      },
+      "rank": 26
+    },
+    {
+      "model": "ipTIME A804NS-MU",
+      "key": "a804nsmu",
+      "score": 18,
+      "status": "candidate",
+      "soc": "Qualcomm QCA9561",
+      "family": "qca9561",
+      "target_guess": "ath79",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.06",
+      "oem_id": "a804nm",
+      "price_krw": 184000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 8,
+          "detail": "qca9561 (upstream DTS 12개) — upstream 타겟은 있으나 MediaTek 외 (무선 드라이버/부트로더 제약 확인 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "qca9561 / qca9886"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP09345D",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A804NS-MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A804NS-MU",
+        "iptime": "https://iptime.com/products/373"
+      },
+      "rank": 27
+    },
+    {
+      "model": "ipTIME AX3000BCM",
+      "key": "ax3000bcm",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM6756",
+      "family": "bcm6756",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2024.05",
+      "oem_id": "ax3000b",
+      "price_krw": 104600,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm6756 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax3000bcm/ax3000b_ml_16_006.bin @0x62afa4 (brcm,bcm96756)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm6756 / bcm6756"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04461",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,bcm96756"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3000BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3000BCM",
+        "iptime": "https://iptime.com/products/781"
+      },
+      "rank": 28
+    },
+    {
+      "model": "ipTIME BE9400QCA",
+      "key": "be9400qca",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Qualcomm IPQ5322",
+      "family": "ipq5322",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2025.12",
+      "oem_id": "be9400qca",
+      "price_krw": 234100,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "ipq5322 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be9400qca/be9400qca_ml_16_006.bin @0xd485d4 (qcom,ipq5332-ap-mi01.4, qcom,ipq5332)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "ipq5322 / qcn6274 / qcn6274"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "WR9404BE",
+      "oem_layout": "",
+      "oem_compatible": [
+        "qcom,ipq5332-ap-mi01.4",
+        "qcom,ipq5332"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE9400QCA",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE9400QCA",
+        "iptime": "https://iptime.com/products/935"
+      },
+      "rank": 29
+    },
+    {
+      "model": "ipTIME AX2004BCM",
+      "key": "ax2004bcm",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM6750",
+      "family": "bcm6750",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2020.06",
+      "oem_id": "ax2004b",
+      "price_krw": 236550,
+      "used_price_krw": 45000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm6750 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax2004bcm/ax2004b_ml_16_006.bin @0x41053 (brcm,bcm963178)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm43217 / bcm6750"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "04413A",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,bcm963178"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX2004BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX2004BCM",
+        "iptime": "https://iptime.com/products/495"
+      },
+      "rank": 30
+    },
+    {
+      "model": "ipTIME AX3004BCM",
+      "key": "ax3004bcm",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM6756",
+      "family": "bcm6756",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2022.07",
+      "oem_id": "ax3004b",
+      "price_krw": 270500,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm6756 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax3004bcm/ax3004b_ml_16_006.bin @0x6a7ce4 (brcm,bcm96756)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm6756 / bcm6756"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04461",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,bcm96756"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3004BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3004BCM",
+        "iptime": "https://iptime.com/products/631"
+      },
+      "rank": 31
+    },
+    {
+      "model": "ipTIME BE3600QCA",
+      "key": "be3600qca",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Qualcomm IPQ5312",
+      "family": "ipq5312",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 4,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "단종",
+      "release_date": "2024.12",
+      "oem_id": "be3600qca",
+      "price_krw": 292690,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "ipq5312 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be3600qca/be3600qca_ml_16_006.bin @0xaea0a4 (qcom,ipq5332-ap-mi04.1, qcom,ipq5332)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "ipq5312 / qca8386"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "WR3604BE",
+      "oem_layout": "",
+      "oem_compatible": [
+        "qcom,ipq5332-ap-mi04.1",
+        "qcom,ipq5332"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE3600QCA",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE3600QCA",
+        "iptime": "https://iptime.com/products/847"
+      },
+      "rank": 32
+    },
+    {
+      "model": "ipTIME AX5400BCM-6E",
+      "key": "ax5400bcm6e",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM6756",
+      "family": "bcm6756",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2023.04",
+      "oem_id": "ax54b6e",
+      "price_krw": 346490,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm6756 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax5400bcm6e/ax54b6e_ml_16_006.bin @0x6a7ce4 (brcm,bcm96756)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm6756 / bcm6756 / bcm6756"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04476",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,bcm96756"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX5400BCM-6E",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX5400BCM-6E",
+        "iptime": "https://iptime.com/products/683"
+      },
+      "rank": 33
+    },
+    {
+      "model": "ipTIME BE19000QCA",
+      "key": "be19000qca",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Qualcomm IPQ5424",
+      "family": "ipq5424",
+      "target_guess": "",
+      "flash": "256MB NAND",
+      "ram": "2GB",
+      "ethernet_ports": 6,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "판매 중",
+      "release_date": "2026.04",
+      "oem_id": "be19000qca",
+      "price_krw": 474100,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "ipq5424 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be19000qca/be19000qca_ml_16_006.bin @0xdaf094 (qcom,ipq5424-rdp485, qcom,ipq5424)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "256MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "2GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "qcn5224 / qcn6224 / qcn6274"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8372n + qca8111): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "WR19000BE",
+      "oem_layout": "",
+      "oem_compatible": [
+        "qcom,ipq5424-rdp485",
+        "qcom,ipq5424"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE19000QCA",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE19000QCA",
+        "iptime": "https://iptime.com/products/969"
+      },
+      "rank": 34
+    },
+    {
+      "model": "ipTIME BE19000",
+      "key": "be19000",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM4916",
+      "family": "bcm4916",
+      "target_guess": "",
+      "flash": "256MB NAND",
+      "ram": "4GB",
+      "ethernet_ports": 6,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 7",
+      "sale_status": "단종",
+      "release_date": "2024.10",
+      "oem_id": "be19000",
+      "price_krw": 479000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4916 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11be/be19000/be19000_ml_16_006.bin @0x793128 (brcm,brcm-v8A)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "256MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "4GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm6726 / bcm6726 / bcm67263"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04518C",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,brcm-v8A"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20BE19000",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20BE19000",
+        "iptime": "https://iptime.com/products/813"
+      },
+      "rank": 35
+    },
+    {
+      "model": "ipTIME AX11000-6E",
+      "key": "ax110006e",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM4908",
+      "family": "bcm4908",
+      "target_guess": "bcm4908",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2023.05",
+      "oem_id": "ax110006e",
+      "price_krw": 479000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4908 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax110006e/ax110006e_ml_16_006.bin @0x50cd84 (brcm,brcm94908ref, brcm,brcm-v8A)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm6715 / bcm6715 / bcm6715"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,brcm94908ref",
+        "brcm,brcm-v8A"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX11000-6E",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX11000-6E",
+        "iptime": "https://iptime.com/products/687"
+      },
+      "rank": 36
+    },
+    {
+      "model": "ipTIME A8004BCM",
+      "key": "a8004bcm",
+      "score": 16,
+      "status": "candidate",
+      "soc": "Broadcom BCM4908",
+      "family": "bcm4908",
+      "target_guess": "bcm4908",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2020.02",
+      "oem_id": "a8004nb",
+      "price_krw": 480000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4908 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ac_11n/a8004bcm/a8004nb_ml_12_180.bin @0xb0 (brcm,brcm-v8A)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4366 / bcm4366"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [
+        "brcm,brcm-v8A"
+      ],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A8004BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A8004BCM",
+        "iptime": "https://iptime.com/products/467"
+      },
+      "rank": 37
+    },
+    {
+      "model": "ipTIME A5004ns",
+      "key": "a5004ns",
+      "score": 15,
+      "status": "candidate",
+      "soc": "Broadcom Cortex-A9 Dual Core",
+      "family": "",
+      "target_guess": "",
+      "flash": "32MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.12",
+      "oem_id": "a5004ns",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "Broadcom Cortex-A9 Dual Core (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "32MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4360 / bcm4360"
+        },
+        {
+          "label": "이전 포팅 시도",
+          "points": 3,
+          "detail": "#9858, #3991, #3990 (닫힘, 코드 참고 가능)"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [
+        {
+          "number": 9858,
+          "title": "bcm53xx: add support for Iptime A5004NS",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/9858",
+          "updated_at": "2022-09-17"
+        },
+        {
+          "number": 3991,
+          "title": "bcm53xx: add support for Iptime A5004NS",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/3991",
+          "updated_at": "2021-12-04"
+        },
+        {
+          "number": 3990,
+          "title": "bcm53xx: add support for Iptime A5004NS",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/3990",
+          "updated_at": "2021-03-14"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A5004ns",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A5004ns",
+        "iptime": "https://iptime.com/products/249"
+      },
+      "rank": 38
+    },
+    {
+      "model": "ipTIME A7NS",
+      "key": "a7ns",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Broadcom BCM4709",
+      "family": "bcm4709",
+      "target_guess": "bcm53xx",
+      "flash": "16MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2016.07",
+      "oem_id": "a7ns",
+      "price_krw": 285000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4709 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4360 / bcm4360"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A7NS",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A7NS",
+        "iptime": "https://iptime.com/products/294"
+      },
+      "rank": 39
+    },
+    {
+      "model": "ipTIME A6004ns",
+      "key": "a6004ns",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Broadcom BCM4709",
+      "family": "bcm4709",
+      "target_guess": "bcm53xx",
+      "flash": "32MB + 128MB",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.09",
+      "oem_id": "a6004ns",
+      "price_krw": 299000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4709 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "32MB + 128MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4360 / bcm4360"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A6004ns",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A6004ns",
+        "iptime": "https://iptime.com/products/271"
+      },
+      "rank": 40
+    },
+    {
+      "model": "ipTIME AX3004ITL",
+      "key": "ax3004itl",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Intel GRX350",
+      "family": "",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2020.05",
+      "oem_id": "ax3004i",
+      "price_krw": 350000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "Intel GRX350 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "wav654 / wav654"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "ip04411",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3004ITL",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3004ITL",
+        "iptime": "https://iptime.com/products/487"
+      },
+      "rank": 41
+    },
+    {
+      "model": "ipTIME A8004ITL",
+      "key": "a8004itl",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Intel GRX350",
+      "family": "",
+      "target_guess": "",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2019.06",
+      "oem_id": "a8004i",
+      "price_krw": 350000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "Intel GRX350 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "wav514 / wav524"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "ip04357",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A8004ITL",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A8004ITL",
+        "iptime": "https://iptime.com/products/405"
+      },
+      "rank": 42
+    },
+    {
+      "model": "ipTIME AX8004BCM",
+      "key": "ax8004bcm",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Broadcom BCM4908",
+      "family": "bcm4908",
+      "target_guess": "bcm4908",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2020.01",
+      "oem_id": "ax8004b",
+      "price_krw": 724500,
+      "used_price_krw": 70000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4908 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm43684 / bcm43684"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX8004BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX8004BCM",
+        "iptime": "https://iptime.com/products/451"
+      },
+      "rank": 43
+    },
+    {
+      "model": "ipTIME AX11000",
+      "key": "ax11000",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Broadcom BCM4908",
+      "family": "bcm4908",
+      "target_guess": "bcm4908",
+      "flash": "128MB NAND",
+      "ram": "1GB",
+      "ethernet_ports": 5,
+      "usb": 2,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2022.08",
+      "oem_id": "ax11kb",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm4908 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "1GB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm43684 / bcm43684 / bcm43684"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX11000",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX11000",
+        "iptime": "https://iptime.com/products/641"
+      },
+      "rank": 44
+    },
+    {
+      "model": "ipTIME A3004NS-BCM",
+      "key": "a3004nsbcm",
+      "score": 12,
+      "status": "candidate",
+      "soc": "Broadcom BCM47189",
+      "family": "bcm47189",
+      "target_guess": "bcm47xx",
+      "flash": "16MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2016.08",
+      "oem_id": "a3004nb",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm47189 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm43217 / internal"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04280A",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004NS-BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004NS-BCM",
+        "iptime": "https://iptime.com/products/297"
+      },
+      "rank": 45
+    },
+    {
+      "model": "ipTIME AX2004T",
+      "key": "ax2004t",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2025.08",
+      "oem_id": "ax2004t",
+      "price_krw": 42100,
+      "used_price_krw": 47000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8832br"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8832BR = 8852B 계열 AP용(11ax AX1200 2x2 PCIe). 순정은 rtk_wifi6.ko(PHL/g6, 커널 4.4). rtw89 rtw8852b(be) 대상이지만 AP 변종 PCI ID·AP 모드 동작 미확인"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX2004T",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX2004T",
+        "iptime": "https://iptime.com/products/911"
+      },
+      "rank": 46
+    },
+    {
+      "model": "ipTIME AX1500R",
+      "key": "ax1500r",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Realtek RTL8197",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2023.12",
+      "oem_id": "ax1500r",
+      "price_krw": 43900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8832br"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8832BR = 8852B 계열 AP용(11ax AX1200 2x2 PCIe). 순정은 rtk_wifi6.ko(PHL/g6, 커널 4.4). rtw89 rtw8852b(be) 대상이지만 AP 변종 PCI ID·AP 모드 동작 미확인"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04498B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX1500R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX1500R",
+        "iptime": "https://iptime.com/products/733"
+      },
+      "rank": 47
+    },
+    {
+      "model": "ipTIME AX1500SR",
+      "key": "ax1500sr",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2024.05",
+      "oem_id": "ax15sr",
+      "price_krw": 44680,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8832br"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8832BR = 8852B 계열 AP용(11ax AX1200 2x2 PCIe). 순정은 rtk_wifi6.ko(PHL/g6, 커널 4.4). rtw89 rtw8852b(be) 대상이지만 AP 변종 PCI ID·AP 모드 동작 미확인"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04498B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX1500SR",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX1500SR",
+        "iptime": "https://iptime.com/products/773"
+      },
+      "rank": 48
+    },
+    {
+      "model": "ipTIME A2004NS-MU",
+      "key": "a2004nsmu",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.12",
+      "oem_id": "a2004nm",
+      "price_krw": 118400,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004NS-MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004NS-MU",
+        "iptime": "https://iptime.com/products/391"
+      },
+      "rank": 49
+    },
+    {
+      "model": "ipTIME A2003NS-MU",
+      "key": "a2003nsmu",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 4,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.08",
+      "oem_id": "a2003nm",
+      "price_krw": 134000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2003NS-MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2003NS-MU",
+        "iptime": "https://iptime.com/products/340"
+      },
+      "rank": 50
+    },
+    {
+      "model": "ipTIME A704NS-BCM",
+      "key": "a704nsbcm",
+      "score": 10,
+      "status": "candidate",
+      "soc": "Broadcom BCM53573",
+      "family": "bcm53573",
+      "target_guess": "bcm53xx",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2016.08",
+      "oem_id": "a704nb",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "bcm53573 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm43217 / internal"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04288",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A704NS-BCM",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A704NS-BCM",
+        "iptime": "https://iptime.com/products/296"
+      },
+      "rank": 51
+    },
+    {
+      "model": "ipTIME A2004NS-R",
+      "key": "a2004nsr",
+      "score": 6,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.09",
+      "oem_id": "a2004sr",
+      "price_krw": 227050,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04281B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004NS-R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004NS-R",
+        "iptime": "https://iptime.com/products/272"
+      },
+      "rank": 52
+    },
+    {
+      "model": "ipTIME A3004",
+      "key": "a3004",
+      "score": 6,
+      "status": "candidate",
+      "soc": "Broadcom Cortex-A9",
+      "family": "",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.08",
+      "oem_id": "a3004",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "Broadcom Cortex-A9 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4360 / bcm4360"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004",
+        "iptime": "https://iptime.com/products/238"
+      },
+      "rank": 53
+    },
+    {
+      "model": "ipTIME A3004ns",
+      "key": "a3004ns",
+      "score": 6,
+      "status": "candidate",
+      "soc": "Broadcom Cortex-A9",
+      "family": "",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.04",
+      "oem_id": "a3004ns",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "Broadcom Cortex-A9 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "bcm4360 / bcm4360"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004ns",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004ns",
+        "iptime": "https://iptime.com/products/224"
+      },
+      "rank": 54
+    },
+    {
+      "model": "ipTIME A2004MU",
+      "key": "a2004mu",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.12",
+      "oem_id": "a2004m",
+      "price_krw": 37900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004MU",
+        "iptime": "https://iptime.com/products/389"
+      },
+      "rank": 55
+    },
+    {
+      "model": "ipTIME A604",
+      "key": "a604",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.06",
+      "oem_id": "a604",
+      "price_krw": 37900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04245B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604",
+        "iptime": "https://iptime.com/products/231"
+      },
+      "rank": 56
+    },
+    {
+      "model": "ipTIME A604MU",
+      "key": "a604mu",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197FN",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2021.05",
+      "oem_id": "a604mu",
+      "price_krw": 39900,
+      "used_price_krw": 13000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197FN): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604MU",
+        "iptime": "https://iptime.com/products/551"
+      },
+      "rank": 57
+    },
+    {
+      "model": "ipTIME A604R",
+      "key": "a604r",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197FNT",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2019.02",
+      "oem_id": "a604r",
+      "price_krw": 54870,
+      "used_price_krw": 15000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197FNT): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604R",
+        "iptime": "https://iptime.com/products/395"
+      },
+      "rank": 58
+    },
+    {
+      "model": "ipTIME A2004ns",
+      "key": "a2004ns",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2013.06",
+      "oem_id": "a2004ns",
+      "price_krw": 124000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192ce / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04227F",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004ns",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004ns",
+        "iptime": "https://iptime.com/products/194"
+      },
+      "rank": 59
+    },
+    {
+      "model": "ipTIME A604G-MU",
+      "key": "a604gmu",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.08",
+      "oem_id": "a604gm",
+      "price_krw": 149000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8197f / rtl8812br"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음",
+        "WLAN: RTL8812BR = 8822B 계열 AP용(11ac 2x2 PCIe). rtw88 rtw8822be(PCI 10ec:b822)로 동작할 가능성 — lspci ID 확인 필요"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604G-MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604G-MU",
+        "iptime": "https://iptime.com/products/378"
+      },
+      "rank": 60
+    },
+    {
+      "model": "ipTIME A604V",
+      "key": "a604v",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.07",
+      "oem_id": "a604v",
+      "price_krw": 169000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04245B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604V",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604V",
+        "iptime": "https://iptime.com/products/236"
+      },
+      "rank": 61
+    },
+    {
+      "model": "ipTIME A2004",
+      "key": "a2004",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2013.11",
+      "oem_id": "a2004",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192ce / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04227F",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004",
+        "iptime": "https://iptime.com/products/211"
+      },
+      "rank": 62
+    },
+    {
+      "model": "ipTIME A2004NSplus",
+      "key": "a2004nsplus",
+      "score": 2,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.04",
+      "oem_id": "a2004ns",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192ce / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04227F",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004NSplus",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004NSplus",
+        "iptime": "https://iptime.com/products/226"
+      },
+      "rank": 63
+    },
+    {
+      "model": "ipTIME A2004R",
+      "key": "a2004r",
+      "score": -15,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.10",
+      "oem_id": "a2004r",
+      "price_krw": 74000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04281B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004R",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004R",
+        "iptime": "https://iptime.com/products/274"
+      },
+      "rank": 64
+    },
+    {
+      "model": "ipTIME A2008",
+      "key": "a2008",
+      "score": -15,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.02",
+      "oem_id": "a2008",
+      "price_krw": 259000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8370): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04254B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2008",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2008",
+        "iptime": "https://iptime.com/products/258"
+      },
+      "rank": 65
+    },
+    {
+      "model": "ipTIME A2004plus",
+      "key": "a2004plus",
+      "score": -15,
+      "status": "candidate",
+      "soc": "Realtek RTL8197D",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2014.05",
+      "oem_id": "a2004",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192ce / rtl8812ar"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04227F",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004plus",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004plus",
+        "iptime": "https://iptime.com/products/229"
+      },
+      "rank": 66
+    },
+    {
+      "model": "ipTIME A2004SE",
+      "key": "a2004se",
+      "score": -20,
+      "status": "candidate",
+      "soc": "Realtek RTL8197FH",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2022.08",
+      "oem_id": "a2004se",
+      "price_krw": 37900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197FH): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "직접"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004SE",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004SE",
+        "iptime": "https://iptime.com/products/643"
+      },
+      "rank": 67
+    },
+    {
+      "model": "ipTIME A2004SR",
+      "key": "a2004sr",
+      "score": -24,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "판매 중",
+      "release_date": "2024.11",
+      "oem_id": "a2sr",
+      "price_krw": 30900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004SR",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004SR",
+        "iptime": "https://iptime.com/products/833"
+      },
+      "rank": 68
+    },
+    {
+      "model": "ipTIME A2002SR",
+      "key": "a2002sr",
+      "score": -24,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "16MB",
+      "ram": "64MB",
+      "ethernet_ports": 3,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2024.08",
+      "oem_id": "a2002sr",
+      "price_krw": 36470,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "MT-WR1225ACV1.0",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2002SR",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2002SR",
+        "iptime": "https://iptime.com/products/805"
+      },
+      "rank": 69
+    },
+    {
+      "model": "ipTIME A604SR",
+      "key": "a604sr",
+      "score": -28,
+      "status": "candidate",
+      "soc": "Realtek RTL8197FH",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "판매 중",
+      "release_date": "2025.02",
+      "oem_id": "a604sr",
+      "price_krw": 27900,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "SoC 이더넷(Realtek RTL8197FH): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04367A",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604SR",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604SR",
+        "iptime": "https://iptime.com/products/859"
+      },
+      "rank": 70
+    },
+    {
+      "model": "ipTIME A2004S",
+      "key": "a2004s",
+      "score": -28,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2024.01",
+      "oem_id": "a2004s",
+      "price_krw": 31270,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2004S",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2004S",
+        "iptime": "https://iptime.com/products/739"
+      },
+      "rank": 71
+    },
+    {
+      "model": "ipTIME A604SE",
+      "key": "a604se",
+      "score": -28,
+      "status": "candidate",
+      "soc": "Realtek RTL8197FH",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2022.10",
+      "oem_id": "a604se",
+      "price_krw": 36990,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "SoC 이더넷(Realtek RTL8197FH): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04367A",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A604SE",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A604SE",
+        "iptime": "https://iptime.com/products/657"
+      },
+      "rank": 72
+    },
+    {
+      "model": "ipTIME A2003MU",
+      "key": "a2003mu",
+      "score": -28,
+      "status": "candidate",
+      "soc": "Realtek RTL8197F",
+      "family": "rtl8197",
+      "target_guess": "",
+      "flash": "8MB",
+      "ram": "64MB",
+      "ethernet_ports": 4,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2021.08",
+      "oem_id": "a2003m",
+      "price_krw": 114000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8197 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 0,
+          "detail": "64MB"
+        },
+        {
+          "label": "WLAN 드라이버 없음",
+          "points": -30,
+          "detail": "RTL8812F: rtw88/rtw89 지원 계획 없음 (2026-11 Realtek rtw88 메인테이너 Ping-Ke Shih 회신: NIC 담당이라 AP 라우터용은 모름). Realtek 공개 가능성 낮음 — 바이너리 디스어셈으로 테이블 확보는 가능하나 upstream 머지 가능성 낮음. 유선 전용(1차 목표) 포팅에는 영향 없음"
+        }
+      ],
+      "warnings": [
+        "64MB RAM: 동작은 하나 여유가 거의 없음",
+        "스위치(rtl8367r): 메인라인 DSA rtl8365mb: chip_id 0x6367 계열(RTL8367RB-VB/RTL8367S/RTL8367SB/RTL8365MB-VC)만 지원 — chip_ver 확인 필요, RTL8367C/D 계열이면 미확인. SI의 'rtl8367r'은 일반 표기임: 97F 순정 커널(3.10.90)은 'Switch v1.4 API'로 8367C/8370B/8364B/8363SC_VB/8367D를 런타임 판별하므로 실제 칩은 부트로그로 확인해야 함. CPU 태그(rtl8_4/rtl8_4t, 0x8899) 필수라 conduit가 태그 프레임을 통과시켜야 함 (순정은 태그 끄고 VLAN 분리)",
+        "SoC 이더넷(Realtek RTL8197F): 메인라인 RTL8197F 이더넷(conduit) 드라이버 없음 — 98C용 신규 드라이버 포크 기반 최소 MAC 드라이버가 선행돼야 함",
+        "WLAN: RTL8197F 내장 2.4GHz(11n 2x2): 메인라인 드라이버 없음. 순정은 rtl8192cd(WLAN_HAL_88XX) 내장 — rtw88 포팅 아이디어만 있음"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": true,
+      "community_port": "",
+      "notes": [
+        {
+          "file": "notes/a2004se.md",
+          "relation": "A2004SE와 같은 SoC+스위치"
+        }
+      ],
+      "same_board": [],
+      "internal_model": "IP04382",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A2003MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A2003MU",
+        "iptime": "https://iptime.com/products/563"
+      },
+      "rank": 73
+    },
+    {
+      "model": "ipTIME A104r",
+      "key": "a104r",
+      "score": -30,
+      "status": "candidate",
+      "soc": "Realtek RTL8881A",
+      "family": "rtl8881",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "32MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2015.07",
+      "oem_id": "a104r",
+      "price_krw": 119000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8881 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": -15,
+          "detail": "32MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8881a"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "32MB RAM: 현행 OpenWrt 비권장(4/32 경고 대상)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04245B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A104r",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A104r",
+        "iptime": "https://iptime.com/products/267"
+      },
+      "rank": 74
+    },
+    {
+      "model": "ipTIME A304",
+      "key": "a304",
+      "score": -30,
+      "status": "candidate",
+      "soc": "Realtek RTL8881A",
+      "family": "rtl8881",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "32MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.04",
+      "oem_id": "a304",
+      "price_krw": 129000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8881 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": -15,
+          "detail": "32MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8881a"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "32MB RAM: 현행 OpenWrt 비권장(4/32 경고 대상)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04245B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A304",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A304",
+        "iptime": "https://iptime.com/products/367"
+      },
+      "rank": 75
+    },
+    {
+      "model": "ipTIME A1",
+      "key": "a1",
+      "score": -30,
+      "status": "candidate",
+      "soc": "Realtek RTL8881A",
+      "family": "rtl8881",
+      "target_guess": "",
+      "flash": "4MB",
+      "ram": "32MB",
+      "ethernet_ports": 3,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2016.09",
+      "oem_id": "a1",
+      "price_krw": null,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 0,
+          "detail": "rtl8881 (upstream DTS 0개) — upstream 타겟 없음 (SoC 자체 포팅 필요)"
+        },
+        {
+          "label": "Flash",
+          "points": -15,
+          "detail": "4MB"
+        },
+        {
+          "label": "RAM",
+          "points": -15,
+          "detail": "32MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "rtl8192er / rtl8881a"
+        }
+      ],
+      "warnings": [
+        "4MB 플래시: 현행 OpenWrt 이미지 불가",
+        "32MB RAM: 현행 OpenWrt 비권장(4/32 경고 대상)"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP04309",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A1",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A1",
+        "iptime": "https://iptime.com/products/302"
+      },
+      "rank": 76
+    }
+  ],
+  "pending": [
+    {
+      "model": "ipTIME AX3000plus",
+      "key": "ax3000plus",
+      "score": 90,
+      "status": "pending",
+      "soc": "MediaTek MT7981BA",
+      "family": "mt7981",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2026.09",
+      "oem_id": "ax3000p",
+      "price_krw": 55150,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7981 (upstream DTS 134개) — mediatek/filogic: ipTIME AX3000 계열 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX3000M, AX3000Q, AX3000SE, AX3000SM"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NAND/eMMC — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "OEM 파티션 레이아웃",
+          "points": 12,
+          "detail": "AX3000M와(과) identical (label Jaccard 1.00)"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04493A = AX3000M, AX3000Q, AX3000SE, AX3000SM (upstream 지원)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax3000plus/ax3000p_ml_16_006.bin @0x33c218 (mediatek,mt7981-spim-snand-rfb)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "MT7531 (OEM DTB `mediatek,mt7531`, si 스위치: mt7531): upstream DSA 드라이버 mt7530이 같은 `mediatek,mt7531` 바인딩을 지원 — 스위치 쪽 추가 드라이버 작업 없음 · upstream 형제 AX3000M, AX3000Q, AX3000SE, AX3000SM도 OEM이 동일 → 형제 DTS의 스위치 노드 재사용"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 0,
+          "detail": "iptime-crc32에 'ax3000p' 추가 필요 (firmware-utils PR)"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7976 / mt7976"
+        }
+      ],
+      "warnings": [
+        "UART 미노출 — 납땜 필요 (UART 핀 외부 미노출, 패드에 직접 납땜 필요)"
+      ],
+      "reference_dts": [
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000m.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000q.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000se.dts",
+        "target/linux/mediatek/dts/mt7981b-iptime-ax3000sm.dts"
+      ],
+      "sibling_layouts": [
+        {
+          "model": "ipTIME AX3000M",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000Q",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000SE",
+          "match": "identical",
+          "jaccard": 1
+        },
+        {
+          "model": "ipTIME AX3000SM",
+          "match": "identical",
+          "jaccard": 1
+        }
+      ],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME AX3000M",
+        "ipTIME AX3000Q",
+        "ipTIME AX3000SE",
+        "ipTIME AX3000SM"
+      ],
+      "internal_model": "IP04493A",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x200000, FIP@0x380000+0x200000, ubi@0x580000+0x6e00000",
+      "oem_compatible": [
+        "mediatek,mt7981-spim-snand-rfb"
+      ],
+      "github": [
+        {
+          "number": 26627,
+          "title": "mediatek: filogic: add support for ipTIME AX3000plus",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/26627",
+          "updated_at": "2026-11-16"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX3000plus",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX3000plus",
+        "iptime": "https://iptime.com/products/1000"
+      }
+    },
+    {
+      "model": "ipTIME AX6000M",
+      "key": "ax6000m",
+      "score": 89,
+      "status": "pending",
+      "soc": "MediaTek MT7986",
+      "family": "mt7986",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "판매 중",
+      "release_date": "2023.08",
+      "oem_id": "ax6000m",
+      "price_krw": 159400,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 33,
+          "detail": "mt7986 (upstream DTS 49개) — mediatek/filogic: 성숙, Wi-Fi(mt7915/mt7986) 안정"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX7800M-6E"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NAND/eMMC — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "OEM 파티션 레이아웃",
+          "points": 12,
+          "detail": "AX7800M-6E와(과) identical (label Jaccard 1.00)"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04523 = AX7800M-6E (upstream 지원)"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax6000m/ax6000m_ml_16_006.bin @0x3e1008 (mediatek,mt7986a-spim-snand-rfb)"
+        },
+        {
+          "label": "형제 대비 신규 HW 블록",
+          "points": -5,
+          "detail": "ethernet-phy-id67c9.de0a, mediatek,mt7986a-spim-snand-rfb, mediatek,mt79xx-si3218x-machine, mediatek,mt79xx-wm8960-machine, silabs,proslic_spi"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "MT7531 (OEM DTB `mediatek,mt7531`, si 스위치: mt7531): upstream DSA 드라이버 mt7530이 같은 `mediatek,mt7531` 바인딩을 지원 — 스위치 쪽 추가 드라이버 작업 없음 · upstream 형제 AX7800M-6E도 OEM이 동일 → 형제 DTS의 스위치 노드 재사용"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 6,
+          "detail": "firmware-utils iptime-crc32에 'ax6000m' 이미 등록"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7975 / mt7975"
+        }
+      ],
+      "warnings": [],
+      "reference_dts": [
+        "target/linux/mediatek/dts/mt7986a-iptime-ax7800m-6e.dts"
+      ],
+      "sibling_layouts": [
+        {
+          "model": "ipTIME AX7800M-6E",
+          "match": "identical",
+          "jaccard": 1
+        }
+      ],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME AX7800M-6E"
+      ],
+      "internal_model": "IP04523",
+      "oem_layout": "BL2@0x0+0x100000, u-boot-env@0x100000+0x80000, Factory@0x180000+0x200000, FIP@0x380000+0x200000, ubi@0x580000+0x6e00000",
+      "oem_compatible": [
+        "mediatek,mt7986a-spim-snand-rfb"
+      ],
+      "github": [
+        {
+          "number": 24510,
+          "title": "mediatek: filogic: add support for ipTIME AX6000M",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/24510",
+          "updated_at": "2026-08-10"
+        },
+        {
+          "number": 22387,
+          "title": "mediatek: filogic: add support for ipTIME AX6000M",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/22387",
+          "updated_at": "2026-05-16"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX6000M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX6000M",
+        "iptime": "https://iptime.com/products/709"
+      }
+    },
+    {
+      "model": "ipTIME AX8004M",
+      "key": "ax8004m",
+      "score": 58,
+      "status": "pending",
+      "soc": "MediaTek MT7622",
+      "family": "mt7622",
+      "target_guess": "mediatek",
+      "flash": "128MB NAND",
+      "ram": "512MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 6",
+      "sale_status": "단종",
+      "release_date": "2021.06",
+      "oem_id": "ax8004m",
+      "price_krw": 178000,
+      "used_price_krw": 90000,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 30,
+          "detail": "mt7622 (upstream DTS 24개) — mediatek/mt7622: 성숙, 단 신규 보드 유입은 적음"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 3,
+          "detail": "같은 SoC의 upstream ipTIME 보드는 없음 — 타사 보드 DTS 참고 필요"
+        },
+        {
+          "label": "OEM DTB 확보",
+          "points": 4,
+          "detail": "11ax/ax8004m/ax8004m_ml_16_006.bin @0x22e790 (mediatek,mt7622-ac2600rfb1, mediatek,mt7622)"
+        },
+        {
+          "label": "스위치(정보)",
+          "points": 0,
+          "detail": "Realtek SDK rtk-gsw (OEM DTB `mediatek,rtk-gsw`, si 스위치: mt7531): si에는 Realtek 스위치가 없음 → SDK 공통 DTS에 남은 미사용 노드로 보임, 포팅 시 무시"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 6,
+          "detail": "firmware-utils iptime-crc32에 'ax8004m' 이미 등록"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "128MB NAND"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "512MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7622 / mt7915"
+        },
+        {
+          "label": "이전 포팅 시도",
+          "points": 3,
+          "detail": "#9250 (닫힘, 코드 참고 가능)"
+        }
+      ],
+      "warnings": [
+        "스위치 MediaTek SDK mt753x (OEM DTB `mediatek,mt753x`, si 스위치: mt7531): OEM은 MediaTek SDK 전용 `mt753x` gsw 드라이버를 씀 (upstream에 없는 바인딩) — OEM 스위치 노드는 그대로 못 쓰고 upstream DSA 노드(`mediatek,mt7621` 내장 스위치 또는 `mediatek,mt7531`)로 새로 써야 함. 포트 번호는 si switch_mapping 기준"
+      ],
+      "reference_dts": [],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [],
+      "internal_model": "IP0445",
+      "oem_layout": "Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x100000, Kernel@0x2c0000+0x2000000, User_data@0x22c0000+0x4000000, Preloader@0x0+0x80000, ATF@0x80000+0x40000, Bootloader@0xc0000+0x80000, Config@0x140000+0x80000, Factory@0x1c0000+0x40000, firmware1@0x200000+0x2000000, firmware2@0x2200000+0x2000000, rootfs_data@0x4200000+0x3000000, Preloader@0x0+0x40000, ATF@0x40000+0x20000, Bootloader@0x60000+0x40000, Config@0xa0000+0x20000, Factory@0xc0000+0x80000, Kernel@0x140000+0xec0000",
+      "oem_compatible": [
+        "mediatek,mt7622-ac2600rfb1",
+        "mediatek,mt7622"
+      ],
+      "github": [
+        {
+          "number": 13118,
+          "title": "mediatek: mt7622: Add support for ipTIME AX8004M",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/13118",
+          "updated_at": "2026-08-10"
+        },
+        {
+          "number": 9250,
+          "title": "mediatek: mt7622: add support for ipTIME AX8004M",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/9250",
+          "updated_at": "2022-03-10"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20AX8004M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20AX8004M",
+        "iptime": "https://iptime.com/products/553"
+      }
+    },
+    {
+      "model": "ipTIME A3004NS-M",
+      "key": "a3004nsm",
+      "score": 81,
+      "status": "pending",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "16MB",
+      "ram": "256MB",
+      "ethernet_ports": 5,
+      "usb": 1,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2017.12",
+      "oem_id": "a3004nm",
+      "price_krw": 227050,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04316B = A3002MESH (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3004nm)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 6,
+          "detail": "16MB"
+        },
+        {
+          "label": "RAM",
+          "points": 6,
+          "detail": "256MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        },
+        {
+          "label": "이전 포팅 시도",
+          "points": 3,
+          "detail": "#4915 (닫힘, 코드 참고 가능)"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3002MESH"
+      ],
+      "internal_model": "IP04316B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [
+        {
+          "number": 24707,
+          "title": "ramips: add support for ipTIME A3004NS-M",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/24707",
+          "updated_at": "2026-08-18"
+        },
+        {
+          "number": 22574,
+          "title": "ramips: add support for ipTIME A3004NS-M",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/22574",
+          "updated_at": "2026-04-16"
+        },
+        {
+          "number": 4915,
+          "title": "ramips: add support for ipTIME A3004NS-M",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/4915",
+          "updated_at": "2026-08-13"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3004NS-M",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3004NS-M",
+        "iptime": "https://iptime.com/products/360"
+      }
+    },
+    {
+      "model": "ipTIME A3008-MU",
+      "key": "a3008mu",
+      "score": 75,
+      "status": "pending",
+      "soc": "MediaTek MT7621",
+      "family": "mt7621",
+      "target_guess": "ramips",
+      "flash": "8MB",
+      "ram": "128MB",
+      "ethernet_ports": 5,
+      "usb": 0,
+      "wifi_standard": "Wi-Fi 5",
+      "sale_status": "단종",
+      "release_date": "2018.11",
+      "oem_id": "a3008",
+      "price_krw": 159000,
+      "used_price_krw": null,
+      "breakdown": [
+        {
+          "label": "플랫폼",
+          "points": 35,
+          "detail": "mt7621 (upstream DTS 301개) — ramips/mt7621: 가장 성숙한 플랫폼, ipTIME 보드 다수 upstream"
+        },
+        {
+          "label": "ipTIME 형제 보드",
+          "points": 13,
+          "detail": "같은 SoC의 upstream ipTIME 보드: AX2002MESH, AX2004M, A3002MESH, A3004ns-dual, A3004T, A6004NS-M, A6ns-M, A8004T"
+        },
+        {
+          "label": "플래시 방식 일치",
+          "points": 4,
+          "detail": "NOR — 형제 보드와 동일한 부팅/이미지 방식 재사용 가능"
+        },
+        {
+          "label": "동일 내부 보드명",
+          "points": 10,
+          "detail": "IP04316B = A3002MESH (upstream 지원)"
+        },
+        {
+          "label": "factory 이미지 도구",
+          "points": 4,
+          "detail": "ramips 방식(UIMAGE_NAME := a3008)으로 factory 이미지 생성 가능"
+        },
+        {
+          "label": "Flash",
+          "points": 2,
+          "detail": "8MB"
+        },
+        {
+          "label": "RAM",
+          "points": 4,
+          "detail": "128MB"
+        },
+        {
+          "label": "WLAN 칩(정보)",
+          "points": 0,
+          "detail": "mt7615 / mt7615"
+        },
+        {
+          "label": "이전 포팅 시도",
+          "points": 3,
+          "detail": "#26017 (닫힘, 코드 참고 가능)"
+        }
+      ],
+      "warnings": [
+        "OEM 펌웨어에서 DTB를 찾지 못함 (lzma 압축 커널 등) — 시리얼/덤프로 확인 필요",
+        "스위치(mt7621 + rtl8370 (cpu-switch port 2)): 메인라인 rtl8365mb 지원 칩 목록에 있는지 미확인 — 드라이버 추가 필요할 수 있음"
+      ],
+      "reference_dts": [
+        "target/linux/ramips/dts/mt7621_iptime_a3002mesh.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2002m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_ax2004m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004ns-dual.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a3004t.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a6004ns-m.dtsi",
+        "target/linux/ramips/dts/mt7621_iptime_a6ns-m.dts",
+        "target/linux/ramips/dts/mt7621_iptime_a8004t.dts"
+      ],
+      "sibling_layouts": [],
+      "upstream_merge_unlikely": false,
+      "community_port": "",
+      "notes": [],
+      "same_board": [
+        "ipTIME A3002MESH"
+      ],
+      "internal_model": "IP04316B",
+      "oem_layout": "",
+      "oem_compatible": [],
+      "github": [
+        {
+          "number": 26105,
+          "title": "mediatek: add support iptime A3008-MU",
+          "state": "open",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/26105",
+          "updated_at": "2026-10-23"
+        },
+        {
+          "number": 26017,
+          "title": "mediatek: add support iptime A3008-MU",
+          "state": "closed",
+          "merged": false,
+          "url": "https://github.com/openwrt/openwrt/pull/26017",
+          "updated_at": "2026-10-22"
+        }
+      ],
+      "links": {
+        "danawa": "https://search.danawa.com/dsearch.php?query=ipTIME%20A3008-MU",
+        "naver": "https://search.shopping.naver.com/search/all?query=ipTIME%20A3008-MU",
+        "iptime": "https://iptime.com/products/381"
+      }
+    }
+  ],
+  "pending_outside_dataset": [
+    {
+      "device": "iptime_be5100p",
+      "model": "BE5100plus",
+      "variant": "",
+      "dts": [
+        "mt7987a-iptime-be5100p"
+      ],
+      "iptime_crc32_id": "be5100p",
+      "pr": 26729,
+      "url": "https://github.com/openwrt/openwrt/pull/26729"
+    }
+  ],
+  "supported": [
+    "ipTIME AX2002MESH",
+    "ipTIME AX2004M",
+    "ipTIME AX3000M",
+    "ipTIME AX3000Q",
+    "ipTIME AX3000SE",
+    "ipTIME AX3000SM",
+    "ipTIME AX7800M-6E",
+    "ipTIME A1004NS",
+    "ipTIME A104ns",
+    "ipTIME A3",
+    "ipTIME A3002MESH",
+    "ipTIME A3004ns-dual",
+    "ipTIME A3004T",
+    "ipTIME A6004MX",
+    "ipTIME A6004NS-M",
+    "ipTIME A604M",
+    "ipTIME A6ns-M",
+    "ipTIME A8004T"
+  ],
+  "upstream_not_in_dataset": [
+    "ipTIME NAS1 (kirkwood)",
+    "ipTIME NAS1dual (mvebu)",
+    "ipTIME T5004 (ramips)"
+  ]
+}

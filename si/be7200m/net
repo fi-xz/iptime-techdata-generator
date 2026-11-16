@@ -1,0 +1,31 @@
+ethdev[0].name=mt7988d
+ethdev[0].role=lan iptv
+ethdev[0].supported=10h 10f 100h 100f 1000f 2500f
+
+ethdev[1].name=rtl8372n
+ethdev[1].role=lan iptv
+ethdev[1].supported=10h 10f 100h 100f 1000f 2500f
+
+eport[0].role=wan
+eport[0].ifname=eth1
+eport[0].derived=mt7988d
+
+eport[1].ifname=eth2
+eport[1].role=joint
+eport[1].derived=mt7988d
+
+eport[2].role=joint
+eport[2].reg=3
+eport[2].derived=rtl8372n
+
+eport[3].reg=4
+eport[3].derived=rtl8372n
+
+eport[4].reg=5
+eport[4].derived=rtl8372n
+
+eport[5].reg=6
+eport[5].derived=rtl8372n
+
+eport[6].reg=7
+eport[6].derived=rtl8372n

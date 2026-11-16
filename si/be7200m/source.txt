@@ -1,0 +1,2 @@
+firmware=be7200m_ml_16_006.bin
+si_dir=be7200m//oem_firmware/_be7200m_ml_16_006.bin.extracted/sysupgrade-image-mt7988d-dsa-10g-spim-nand-be7200m/_root.extracted/squashfs-root/opt/efm/default/var/run/si

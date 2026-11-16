@@ -1,0 +1,2 @@
+firmware=ax3000p_ml_16_006.bin
+si_dir=ax3000plus//oem_firmware/_ax3000p_ml_16_006.bin.extracted/sysupgrade-image-mt7981-spim-nand-ax3000q/_root.extracted/squashfs-root/default/var/run/si

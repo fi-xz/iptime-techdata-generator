@@ -1,0 +1,90 @@
+{
+  "model": "ipTIME A104ns",
+  "target": "ramips",
+  "bootloader": "",
+  "soc": "MediaTek MT7620A",
+  "soc_vendor": "MediaTek",
+  "flash": "8MB",
+  "ram": "64MB",
+  "switch": "mt7620",
+  "wlan2_4": "internal",
+  "wlan5": "mt7610e",
+  "wlan_driver": "mt76",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS1 57600bps (OEM kernel console=ttyS1,57600n8)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "mt7620",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "mt7620",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "mt7620",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "mt7620",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "mt7620",
+      "port": "0",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 13,
+      "active_low": null,
+      "raw": "13"
+    },
+    "wps": {
+      "gpio": 12,
+      "active_low": null,
+      "raw": "12"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 39,
+      "active_low": null,
+      "raw": "39"
+    },
+    {
+      "name": "usb0",
+      "gpio": 11,
+      "active_low": null,
+      "raw": "11"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 57600,
+  "internal_model": "IP04253B",
+  "firmware_git_commit": "",
+  "firmware_git_branch": "",
+  "si_source": "a104ns_kr_10_038.bin"
+}

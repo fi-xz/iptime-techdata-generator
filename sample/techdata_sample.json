@@ -1,0 +1,16 @@
+{
+    "model": "ipTIME A1004NS",
+    "target": "ramips",
+    "bootloader": "u-boot",
+    "soc": "MediaTek MT7620A",
+    "flash": "16MB",
+    "ram": "128MB",
+    "switch": "MediaTek MT7530BU",
+    "wlan2_4": "MediaTek MT7620A",
+    "wlan5": "MediaTek MT7610EN",
+    "wlan_driver": "mt76",
+    "usb": 1,
+    "ethernet_ports": 5,
+    "serial": 1,
+    "serial_info": "UART 3.3V baudrate 57600 8N1"
+}

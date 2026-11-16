@@ -1,0 +1,2 @@
+firmware=a8txr_ml_16_006.bin
+si_dir=a8004txr//oem_firmware/_a8txr_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

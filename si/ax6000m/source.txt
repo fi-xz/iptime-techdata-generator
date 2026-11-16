@@ -1,0 +1,2 @@
+firmware=ax6000m_ml_16_006.bin
+si_dir=ax6000m//oem_firmware/_ax6000m_ml_16_006.bin.extracted/sysupgrade-image-mt7986a-spim-nand-rfb/_root.extracted/squashfs-root/default/var/run/si

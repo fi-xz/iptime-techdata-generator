@@ -1,0 +1,37 @@
+ethdev[0].name=bcm4916
+ethdev[0].role=lan iptv
+ethdev[0].supported=10h 10f 100h 100f 1000f
+
+eport[0].ifname=eth3
+eport[0].reg=3
+eport[0].derived=bcm4916
+eport[0].gpio.always_on=out/46/1
+
+eport[1].ifname=eth2
+eport[1].reg=2
+eport[1].derived=bcm4916
+eport[1].gpio.always_on=out/42/1
+
+eport[2].ifname=eth1
+eport[2].reg=1
+eport[2].derived=bcm4916
+eport[2].gpio.always_on=out/43/1
+
+eport[3].ifname=eth0
+eport[3].reg=0
+eport[3].derived=bcm4916
+eport[3].gpio.always_on=out/44/1
+
+eport[4].role=lan
+eport[4].ifname=eth4
+eport[4].reg=4
+eport[4].supported=100f 1000f 2500f 5000f 10000f
+eport[4].derived=bcm4916
+eport[4].gpio.always_on=out/45/1
+
+eport[5].role=wan
+eport[5].ifname=eth5
+eport[5].reg=5
+eport[5].supported=100f 1000f 2500f 5000f 10000f
+eport[5].derived=bcm4916
+eport[5].gpio.always_on=out/47/1

@@ -1,0 +1,10 @@
+name=ipTIME A604SR
+company=EFM Networks
+homepage=https://iptime.com/iptime/
+type=wireless_router
+vendor=efm
+easymesh.support_type=2
+easymesh.support_role=2
+easymesh.support_func=led|speed_test|wired_stt|wireless_stt|wired_bh|wireless_bh|guest_network|dfs|expert_wifi
+easymesh.icon=router_008
+code=a604sr

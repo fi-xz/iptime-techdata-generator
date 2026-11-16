@@ -1,0 +1,31 @@
+ethdev[0].name=rtl8211f
+ethdev[0].supported=10h 10f 100h 100f 1000f
+
+ethdev[1].name=rtl8198d
+ethdev[1].supported=10h 10f 100h 100f 1000f
+
+eport[0].role=wan
+eport[0].ifname=nas0
+eport[0].reg=6
+eport[0].derived=rtl8211f
+
+eport[1].role=lan iptv
+eport[1].ifname=eth0.2
+eport[1].reg=0
+eport[1].derived=rtl8198d
+
+eport[2].role=lan iptv
+eport[2].ifname=eth0.3
+eport[2].reg=1
+eport[2].derived=rtl8198d
+
+eport[3].role=lan iptv
+eport[3].ifname=eth0.4
+eport[3].reg=2
+eport[3].derived=rtl8198d
+
+eport[4].role=lan iptv
+eport[4].ifname=eth0.5
+eport[4].reg=3
+eport[4].derived=rtl8198d
+

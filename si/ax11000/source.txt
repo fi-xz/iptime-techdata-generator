@@ -1,0 +1,2 @@
+firmware=ax11kb_ml_16_006.bin
+si_dir=ax11000//oem_firmware/_ax11kb_ml_16_006.bin.extracted/ubi-squashfs-root-rootfs_squashfs/default/var/run/si

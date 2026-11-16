@@ -1,0 +1,2 @@
+firmware=a804nm_ml_12_180.bin
+si_dir=a804nsmu//oem_firmware/_a804nm_ml_12_180.bin.extracted/squashfs-root/default/var/run/si

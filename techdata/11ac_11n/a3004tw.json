@@ -1,0 +1,102 @@
+{
+  "model": "ipTIME A3004TW",
+  "target": "ramips",
+  "bootloader": "",
+  "soc": "MediaTek MT7621",
+  "soc_vendor": "MediaTek",
+  "flash": "16MB",
+  "ram": "128MB",
+  "switch": "mt7621",
+  "wlan2_4": "mt7615",
+  "wlan5": "mt7615",
+  "wlan_driver": "mt76",
+  "usb": 0,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS1 57600bps (OEM kernel console=ttyS1,57600n8)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "mt7621",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "mt7621",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "mt7621",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "mt7621",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "mt7621",
+      "port": "0",
+      "role": "wan"
+    },
+    {
+      "label": "CPU",
+      "switch": "mt7621",
+      "port": "6",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 4,
+      "active_low": true,
+      "raw": "in/4/0"
+    },
+    "wps": {
+      "gpio": 4,
+      "active_low": true,
+      "raw": "in/4/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 18,
+      "active_low": true,
+      "raw": "out/18/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 17,
+      "active_low": true,
+      "raw": "out/17/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 14,
+      "active_low": true,
+      "raw": "out/14/0"
+    }
+  ],
+  "led_port_control": "switch",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 57600,
+  "internal_model": "IP04316B",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "a3004tw_ml_16_006.bin"
+}

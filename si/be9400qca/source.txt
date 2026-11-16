@@ -1,0 +1,2 @@
+firmware=be9400qca_ml_16_006.bin
+si_dir=be9400qca//oem_firmware/_be9400qca_ml_16_006.bin.extracted/ubi-squashfs-root-ubi_rootfs/opt/efm/default/var/run/si

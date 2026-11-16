@@ -1,0 +1,2 @@
+firmware=ax7800m_ml_16_006.bin
+si_dir=ax7800m6e//oem_firmware/_ax7800m_ml_16_006.bin.extracted/sysupgrade-image-mt7986a-2500wan-spim-nand-rfb/_root.extracted/squashfs-root/default/var/run/si

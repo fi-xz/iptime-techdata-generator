@@ -1,0 +1,2 @@
+firmware=a8004nm_ml_16_006.bin
+si_dir=a8004nsm//oem_firmware/_a8004nm_ml_16_006.bin.extracted/_3E84.extracted/_B3A9D8.extracted/cpio-root/default/var/run/si

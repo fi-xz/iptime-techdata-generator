@@ -1,0 +1,2 @@
+firmware=a3003ns_kr_11_004.bin
+si_dir=a3003ns//oem_firmware/_a3003ns_kr_11_004.bin.extracted/squashfs-root/default/var/run/si

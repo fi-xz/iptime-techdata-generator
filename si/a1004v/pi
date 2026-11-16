@@ -1,0 +1,8 @@
+name=ipTIME A1004V
+company=EFM Networks
+url=www.iptime.co.kr 
+type=wireless_router
+vendor=efm
+easymesh.support_type=4
+easymesh.support_role=2
+easymesh.support_func=wired_stt|wireless_stt|wired_bh|guest_network|expert_wifi

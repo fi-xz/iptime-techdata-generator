@@ -1,0 +1,96 @@
+{
+  "model": "ipTIME A3003NS",
+  "target": "ramips",
+  "bootloader": "",
+  "soc": "MediaTek MT7621",
+  "soc_vendor": "MediaTek",
+  "flash": "16MB",
+  "ram": "128MB",
+  "switch": "mt7621",
+  "wlan2_4": "mt7603e",
+  "wlan5": "mt7612e",
+  "wlan_driver": "mt76",
+  "usb": 1,
+  "ethernet_ports": 4,
+  "serial_port": 1,
+  "serial_port_info": "ttyS1 57600bps (OEM kernel console=ttyS1,57600n8)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "mt7621",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "mt7621",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "mt7621",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "mt7621",
+      "port": "4",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 4,
+      "active_low": null,
+      "raw": "4"
+    },
+    "wps": {
+      "gpio": 3,
+      "active_low": null,
+      "raw": "3"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 18,
+      "active_low": null,
+      "raw": "18"
+    },
+    {
+      "name": "usb0",
+      "gpio": 7,
+      "active_low": null,
+      "raw": "7"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 17,
+      "active_low": null,
+      "raw": "17"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 14,
+      "active_low": null,
+      "raw": "14"
+    }
+  ],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 57600,
+  "internal_model": "IP04317",
+  "firmware_git_commit": "",
+  "firmware_git_branch": "",
+  "si_source": "a3003ns_kr_11_004.bin"
+}

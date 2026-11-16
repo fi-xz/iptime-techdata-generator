@@ -1,0 +1,102 @@
+{
+  "model": "ipTIME A8004ITL",
+  "target": "",
+  "bootloader": "",
+  "soc": "Intel GRX350",
+  "soc_vendor": "Intel",
+  "flash": "128MB NAND",
+  "ram": "512MB",
+  "switch": "internal",
+  "wlan2_4": "wav514",
+  "wlan5": "wav524",
+  "wlan_driver": "",
+  "usb": 1,
+  "ethernet_ports": 5,
+  "serial_port": 0,
+  "serial_port_info": "",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "internal",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "internal",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "internal",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "internal",
+      "port": "5",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "internal",
+      "port": "15",
+      "role": "wan"
+    },
+    {
+      "label": "CPU",
+      "switch": "internal",
+      "port": "0",
+      "role": "cpu"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": {
+      "gpio": 0,
+      "active_low": true,
+      "raw": "in/0/0"
+    },
+    "wps": {
+      "gpio": 42,
+      "active_low": true,
+      "raw": "in/42/0"
+    }
+  },
+  "leds": [
+    {
+      "name": "cpu",
+      "gpio": 16,
+      "active_low": true,
+      "raw": "out/16/0"
+    },
+    {
+      "name": "wlan2g",
+      "gpio": 34,
+      "active_low": true,
+      "raw": "out/34/0"
+    },
+    {
+      "name": "wlan5g",
+      "gpio": 35,
+      "active_low": true,
+      "raw": "out/35/0"
+    }
+  ],
+  "led_port_control": "switch",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": null,
+  "internal_model": "ip04357",
+  "firmware_git_commit": "191a98153605b5b6299c0c81b590254bf8179a98",
+  "firmware_git_branch": "",
+  "si_source": "a8004i_ml_16_006.bin"
+}

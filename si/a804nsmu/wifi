@@ -1,0 +1,6 @@
+wifi_reg[0].country=KR
+wifi_reg[0].pwr_percent_2g=100
+wifi_reg[0].pwr_percent_2g_20MHz=100
+wifi_reg[0].pwr_percent_5gh=100
+wifi_reg[0].pwr_percent_5gm=100
+wifi_reg[0].pwr_percent_5gl=100

@@ -1,0 +1,26 @@
+{
+  "name": "iptime_techdata_generator",
+  "version": "1.0.0",
+  "description": "An organized techdata generator for ipTIME firmwares",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "download": "tsx src/download-firmware.ts",
+    "extract": "wsl bash ./scripts/extract-firmware.sh",
+    "collect-si": "wsl bash ./scripts/collect-si.sh",
+    "snapshot": "tsx src/snapshot.ts",
+    "candidates": "tsx src/porting-candidates.ts",
+    "prices": "tsx src/crawl-prices.ts"
+  },
+  "author": "nx (fi.xz)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

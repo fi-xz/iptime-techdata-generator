@@ -1,0 +1,29 @@
+band[2g].autoch_excl=12,13
+band[5g].autoch_excl=144
+band[5g2].autoch_excl=
+
+wifi_reg[0].country=KR
+
+wifi_reg[0].channel[0].wl_tag=5g2
+wifi_reg[0].channel[0].number=48
+wifi_reg[0].channel[0].bw=0
+wifi_reg[0].channel[0].power.unit=qdbm
+wifi_reg[0].channel[0].power.max=80
+
+wifi_reg[0].channel[1].wl_tag=5g2
+wifi_reg[0].channel[1].number=44
+wifi_reg[0].channel[1].bw=40
+wifi_reg[0].channel[1].power.unit=qdbm
+wifi_reg[0].channel[1].power.max=80
+
+wifi_reg[0].channel[2].wl_tag=5g2
+wifi_reg[0].channel[2].number=44
+wifi_reg[0].channel[2].bw=80
+wifi_reg[0].channel[2].power.unit=qdbm
+wifi_reg[0].channel[2].power.max=80
+
+wifi_reg[0].channel_5g_lp=48:*,44:40,44:80
+
+encryption[2g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g]=open wpa wpa2 psk psk2 sae tkip aes owe
+encryption[5g2]=open wpa wpa2 psk psk2 sae tkip aes owe

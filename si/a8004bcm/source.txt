@@ -1,0 +1,2 @@
+firmware=a8004nb_ml_12_180.bin
+si_dir=a8004bcm//oem_firmware/_a8004nb_ml_12_180.bin.extracted/ubifs-root/1658038650/rootfs_ubifs/default/var/run/si

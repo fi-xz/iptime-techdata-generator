@@ -1,0 +1,25 @@
+ethdev[0].name=an7563
+ethdev[0].role=lan iptv
+ethdev[0].supported=10h 10f 100h 100f 1000f
+
+eport[0].role=wan
+eport[0].ifname=eth0.1
+eport[0].reg=0
+eport[0].derived=an7563
+eport[0].gpio.always_on=out/8
+
+eport[1].ifname=eth0.4
+eport[1].reg=3
+eport[1].derived=an7563
+eport[1].gpio.always_on=out/11
+
+eport[2].ifname=eth0.3
+eport[2].reg=2
+eport[2].derived=an7563
+eport[2].gpio.always_on=out/10
+
+eport[3].role=lan mirror
+eport[3].ifname=eth0.2
+eport[3].reg=1
+eport[3].derived=an7563
+eport[3].gpio.always_on=out/9

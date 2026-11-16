@@ -1,0 +1,2 @@
+firmware=a6004nm_ml_16_006.bin
+si_dir=a6004nsm//oem_firmware/_a6004nm_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

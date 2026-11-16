@@ -1,0 +1,2 @@
+firmware=ax8004b_ml_16_006.bin
+si_dir=ax8004bcm//oem_firmware/_ax8004b_ml_16_006.bin.extracted/ubi-squashfs-root-rootfs_squashfs/default/var/run/si

@@ -1,0 +1,2 @@
+firmware=a8nm_ml_16_006.bin
+si_dir=a8nsm//oem_firmware/_a8nm_ml_16_006.bin.extracted/_3E84.extracted/_B3E934.extracted/cpio-root/default/var/run/si

@@ -1,0 +1,650 @@
+{
+  "a1": {
+    "model": "ipTIME A1",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a1004": {
+    "model": "ipTIME A1004",
+    "price_krw": 43900,
+    "source": "https://prod.danawa.com/info/?pcode=2669311",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 47개 몰) · EFM ipTIME A1004 유무선공유기",
+    "used_price_krw": null
+  },
+  "a1004v": {
+    "model": "ipTIME A1004V",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a104": {
+    "model": "ipTIME A104",
+    "price_krw": 129000,
+    "source": "https://prod.danawa.com/info/?pcode=2449707",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (단종) · EFM ipTIME A104 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a104r": {
+    "model": "ipTIME A104r",
+    "price_krw": 119000,
+    "source": "https://prod.danawa.com/info/?pcode=3283070",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (단종) · EFM ipTIME A104R 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2002sr": {
+    "model": "ipTIME A2002SR",
+    "price_krw": 36470,
+    "source": "https://prod.danawa.com/info/?pcode=63417821",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 42개 몰) · EFM ipTIME A2002SR 유무선공유기",
+    "used_price_krw": null
+  },
+  "a2003mu": {
+    "model": "ipTIME A2003MU",
+    "price_krw": 114000,
+    "source": "https://prod.danawa.com/info/?pcode=15015731",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A2003MU 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2003nsmu": {
+    "model": "ipTIME A2003NS-MU",
+    "price_krw": 134000,
+    "source": "https://prod.danawa.com/info/?pcode=5386962",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 3개 몰) · EFM ipTIME A2003NS-MU 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2004": {
+    "model": "ipTIME A2004",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=2369634",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A2004 공유기 패키지",
+    "used_price_krw": null
+  },
+  "a2004mu": {
+    "model": "ipTIME A2004MU",
+    "price_krw": 37900,
+    "source": "https://prod.danawa.com/info/?pcode=6827977",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 40개 몰) · EFM ipTIME A2004MU 유무선공유기",
+    "used_price_krw": null
+  },
+  "a2004ns": {
+    "model": "ipTIME A2004ns",
+    "price_krw": 124000,
+    "source": "https://prod.danawa.com/info/?pcode=115990500",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM네트웍스 ipTIME A2004NS · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2004nsmu": {
+    "model": "ipTIME A2004NS-MU",
+    "price_krw": 118400,
+    "source": "https://prod.danawa.com/info/?pcode=6828172",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 3개 몰) · EFM ipTIME A2004NS-MU 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2004nsplus": {
+    "model": "ipTIME A2004NSplus",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a2004nsr": {
+    "model": "ipTIME A2004NS-R",
+    "price_krw": 227050,
+    "source": "https://prod.danawa.com/info/?pcode=3443135",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A2004NS-R 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2004plus": {
+    "model": "ipTIME A2004plus",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=2685737",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A2004 plus 공유기 패키지",
+    "used_price_krw": null
+  },
+  "a2004r": {
+    "model": "ipTIME A2004R",
+    "price_krw": 74000,
+    "source": "https://prod.danawa.com/info/?pcode=3482211",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A2004R 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a2004s": {
+    "model": "ipTIME A2004S",
+    "price_krw": 31270,
+    "source": "https://prod.danawa.com/info/?pcode=31996043",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 96개 몰) · EFM ipTIME A2004S 유무선공유기",
+    "used_price_krw": null
+  },
+  "a2004se": {
+    "model": "ipTIME A2004SE",
+    "price_krw": 37900,
+    "source": "https://prod.danawa.com/info/?pcode=17783414",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 79개 몰) · EFM ipTIME A2004SE 유무선공유기",
+    "used_price_krw": null
+  },
+  "a2004sr": {
+    "model": "ipTIME A2004SR",
+    "price_krw": 30900,
+    "source": "https://prod.danawa.com/info/?pcode=70250258",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 512개 몰) · EFM ipTIME A2004SR 유무선공유기",
+    "used_price_krw": null
+  },
+  "a2008": {
+    "model": "ipTIME A2008",
+    "price_krw": 259000,
+    "source": "https://prod.danawa.com/info/?pcode=3003114",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A2008 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a3003ns": {
+    "model": "ipTIME A3003NS",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a3004": {
+    "model": "ipTIME A3004",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=2776572",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A3004 공유기 패키지",
+    "used_price_krw": null
+  },
+  "a3004dual": {
+    "model": "ipTIME A3004-dual",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a3004m": {
+    "model": "ipTIME A3004M",
+    "price_krw": 110000,
+    "source": "https://prod.danawa.com/info/?pcode=13140132",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 5개 몰) · EFM ipTIME A3004M 유무선공유기",
+    "used_price_krw": null
+  },
+  "a3004ns": {
+    "model": "ipTIME A3004ns",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=2673325",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A3004ns 공유기 패키지",
+    "used_price_krw": null
+  },
+  "a3004nsbcm": {
+    "model": "ipTIME A3004NS-BCM",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=4326113",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A3004NS-BCM 유무선공유기",
+    "used_price_krw": null
+  },
+  "a3004nsm": {
+    "model": "ipTIME A3004NS-M",
+    "price_krw": 227050,
+    "source": "https://prod.danawa.com/info/?pcode=5767006",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 4개 몰) · EFM ipTIME A3004NS-M 유무선공유기",
+    "used_price_krw": null
+  },
+  "a3004tw": {
+    "model": "ipTIME A3004TW",
+    "price_krw": 61490,
+    "source": "https://prod.danawa.com/info/?pcode=17194838",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 7개 몰) · EFM ipTIME A3004TW 유무선공유기",
+    "used_price_krw": null
+  },
+  "a3008mu": {
+    "model": "ipTIME A3008-MU",
+    "price_krw": 159000,
+    "source": "https://prod.danawa.com/info/?pcode=6732709",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 16개 몰) · EFM ipTIME A3008-MU 유무선공유기",
+    "used_price_krw": null
+  },
+  "a304": {
+    "model": "ipTIME A304",
+    "price_krw": 129000,
+    "source": "https://prod.danawa.com/info/?pcode=6033177",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A304 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a5004ns": {
+    "model": "ipTIME A5004ns",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=2941400",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A5004ns 공유기 패키지",
+    "used_price_krw": null
+  },
+  "a5004nsm": {
+    "model": "ipTIME A5004NS-M",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a6004ns": {
+    "model": "ipTIME A6004ns",
+    "price_krw": 299000,
+    "source": "https://prod.danawa.com/info/?pcode=3407646",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (단종) · EFM ipTIME A6004NS 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a604": {
+    "model": "ipTIME A604",
+    "price_krw": 37900,
+    "source": "https://prod.danawa.com/info/?pcode=2647087",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A604 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a604gmu": {
+    "model": "ipTIME A604G-MU",
+    "price_krw": 149000,
+    "source": "https://prod.danawa.com/info/?pcode=6396876",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A604G-MU 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a604mu": {
+    "model": "ipTIME A604MU",
+    "price_krw": 39900,
+    "source": "https://prod.danawa.com/info/?pcode=14304089",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A604MU 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": 13000
+  },
+  "a604r": {
+    "model": "ipTIME A604R",
+    "price_krw": 54870,
+    "source": "https://prod.danawa.com/info/?pcode=7309609",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 19개 몰) · EFM ipTIME A604R 유무선공유기",
+    "used_price_krw": 15000
+  },
+  "a604se": {
+    "model": "ipTIME A604SE",
+    "price_krw": 36990,
+    "source": "https://prod.danawa.com/info/?pcode=17997713",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 223개 몰) · EFM ipTIME A604SE 유무선공유기",
+    "used_price_krw": null
+  },
+  "a604sr": {
+    "model": "ipTIME A604SR",
+    "price_krw": 27900,
+    "source": "https://prod.danawa.com/info/?pcode=75854612",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 24개 몰) · EFM ipTIME A604SR 유무선공유기",
+    "used_price_krw": null
+  },
+  "a604v": {
+    "model": "ipTIME A604V",
+    "price_krw": 169000,
+    "source": "https://prod.danawa.com/info/?pcode=2873747",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 4개 몰) · EFM ipTIME A604V 유무선공유기",
+    "used_price_krw": null
+  },
+  "a604v3": {
+    "model": "ipTIME A604-V3",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a7004m": {
+    "model": "ipTIME A7004M",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a704nsbcm": {
+    "model": "ipTIME A704NS-BCM",
+    "price_krw": null,
+    "source": "https://prod.danawa.com/info/?pcode=4319815",
+    "checked_at": "2026-11-07",
+    "note": "다나와 등록됨, 판매처 없음 (단종) · EFM ipTIME A704NS-BCM 유무선공유기",
+    "used_price_krw": null
+  },
+  "a7ns": {
+    "model": "ipTIME A7NS",
+    "price_krw": 285000,
+    "source": "https://prod.danawa.com/info/?pcode=4270351",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (단종) · EFM ipTIME A7ns 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a8004bcm": {
+    "model": "ipTIME A8004BCM",
+    "price_krw": 480000,
+    "source": "https://prod.danawa.com/info/?pcode=10641612",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A8004BCM 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a8004itl": {
+    "model": "ipTIME A8004ITL",
+    "price_krw": 350000,
+    "source": "https://prod.danawa.com/info/?pcode=8082025",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A8004ITL 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a8004nsm": {
+    "model": "ipTIME A8004NS-M",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a8004txr": {
+    "model": "ipTIME A8004T-XR",
+    "price_krw": 500000,
+    "source": "https://prod.danawa.com/info/?pcode=10159737",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A8004T-XR 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "a804nsmu": {
+    "model": "ipTIME A804NS-MU",
+    "price_krw": 184000,
+    "source": "https://prod.danawa.com/info/?pcode=6232389",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 4개 몰) · EFM ipTIME A804NS-MU 유무선공유기",
+    "used_price_krw": null
+  },
+  "a8nsm": {
+    "model": "ipTIME A8ns-M",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "a9004m": {
+    "model": "ipTIME A9004M",
+    "price_krw": 285000,
+    "source": "https://prod.danawa.com/info/?pcode=6033065",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A9004M 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": 70000
+  },
+  "a9004mx2": {
+    "model": "ipTIME A9004M-X2",
+    "price_krw": 285000,
+    "source": "https://prod.danawa.com/info/?pcode=10160109",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME A9004M-X2 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "ax11000": {
+    "model": "ipTIME AX11000",
+    "price_krw": null,
+    "source": "",
+    "checked_at": "2026-11-07",
+    "note": "다나와 카탈로그에 없음",
+    "used_price_krw": null
+  },
+  "ax110006e": {
+    "model": "ipTIME AX11000-6E",
+    "price_krw": 479000,
+    "source": "https://prod.danawa.com/info/?pcode=20304158",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 9개 몰) · EFM ipTIME AX11000-6E 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax1500r": {
+    "model": "ipTIME AX1500R",
+    "price_krw": 43900,
+    "source": "https://prod.danawa.com/info/?pcode=30766304",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 12개 몰) · EFM ipTIME AX1500R 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax1500sr": {
+    "model": "ipTIME AX1500SR",
+    "price_krw": 44680,
+    "source": "https://prod.danawa.com/info/?pcode=52259459",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 66개 몰) · EFM ipTIME AX1500SR 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax2004": {
+    "model": "ipTIME AX2004",
+    "price_krw": 53590,
+    "source": "https://prod.danawa.com/info/?pcode=17997734",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 43개 몰) · EFM ipTIME AX2004 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax2004bcm": {
+    "model": "ipTIME AX2004BCM",
+    "price_krw": 236550,
+    "source": "https://prod.danawa.com/info/?pcode=11606525",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME AX2004BCM 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": 45000
+  },
+  "ax2004t": {
+    "model": "ipTIME AX2004T",
+    "price_krw": 42100,
+    "source": "https://prod.danawa.com/info/?pcode=95848220",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 655개 몰) · EFM ipTIME AX2004T 유무선공유기",
+    "used_price_krw": 47000
+  },
+  "ax3000bcm": {
+    "model": "ipTIME AX3000BCM",
+    "price_krw": 104600,
+    "source": "https://prod.danawa.com/info/?pcode=54481049",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 5개 몰) · EFM ipTIME AX3000BCM 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax3000plus": {
+    "model": "ipTIME AX3000plus",
+    "price_krw": 55150,
+    "source": "https://prod.danawa.com/info/?pcode=124237325",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 173개 몰) · EFM ipTIME AX3000plus 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax3000r": {
+    "model": "ipTIME AX3000R",
+    "price_krw": 53690,
+    "source": "https://prod.danawa.com/info/?pcode=55463915",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 36개 몰) · EFM ipTIME AX3000R 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax3004bcm": {
+    "model": "ipTIME AX3004BCM",
+    "price_krw": 270500,
+    "source": "https://prod.danawa.com/info/?pcode=17430965",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 3개 몰) · EFM ipTIME AX3004BCM 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "ax3004itl": {
+    "model": "ipTIME AX3004ITL",
+    "price_krw": 350000,
+    "source": "https://prod.danawa.com/info/?pcode=11246022",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME AX3004ITL 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "ax3004r": {
+    "model": "ipTIME AX3004R",
+    "price_krw": 44100,
+    "source": "https://prod.danawa.com/info/?pcode=106694339",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 256개 몰) · EFM ipTIME AX3004R 유무선 공유기",
+    "used_price_krw": null
+  },
+  "ax3008m": {
+    "model": "ipTIME AX3008M",
+    "price_krw": 155100,
+    "source": "https://prod.danawa.com/info/?pcode=61541432",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 269개 몰) · EFM ipTIME AX3008M 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax5400bcm6e": {
+    "model": "ipTIME AX5400BCM-6E",
+    "price_krw": 346490,
+    "source": "https://prod.danawa.com/info/?pcode=19748219",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 6개 몰) · EFM ipTIME AX5400BCM-6E 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax6000m": {
+    "model": "ipTIME AX6000M",
+    "price_krw": 159400,
+    "source": "https://prod.danawa.com/info/?pcode=27761495",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 11개 몰) · EFM ipTIME AX6000M 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax6008m": {
+    "model": "ipTIME AX6008M",
+    "price_krw": 189000,
+    "source": "https://prod.danawa.com/info/?pcode=61541669",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 84개 몰) · EFM ipTIME AX6008M 유무선공유기",
+    "used_price_krw": null
+  },
+  "ax8004bcm": {
+    "model": "ipTIME AX8004BCM",
+    "price_krw": 724500,
+    "source": "https://prod.danawa.com/info/?pcode=10293579",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 25개 몰) · EFM ipTIME AX8004BCM 유무선공유기",
+    "used_price_krw": 70000
+  },
+  "ax8004m": {
+    "model": "ipTIME AX8004M",
+    "price_krw": 178000,
+    "source": "https://prod.danawa.com/info/?pcode=14402675",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 29개 몰) · EFM ipTIME AX8004M 유무선공유기",
+    "used_price_krw": 90000
+  },
+  "ax8008m": {
+    "model": "ipTIME AX8008M",
+    "price_krw": 220000,
+    "source": "https://prod.danawa.com/info/?pcode=17169287",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 10개 몰) · EFM ipTIME AX8008M 유무선공유기",
+    "used_price_krw": null
+  },
+  "be19000": {
+    "model": "ipTIME BE19000",
+    "price_krw": 479000,
+    "source": "https://prod.danawa.com/info/?pcode=67978502",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 33개 몰) · EFM ipTIME BE19000 유무선공유기",
+    "used_price_krw": null
+  },
+  "be19000qca": {
+    "model": "ipTIME BE19000QCA",
+    "price_krw": 474100,
+    "source": "https://prod.danawa.com/info/?pcode=122638983",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 235개 몰) · EFM ipTIME BE19000QCA 유무선공유기",
+    "used_price_krw": null
+  },
+  "be3600m": {
+    "model": "ipTIME BE3600M",
+    "price_krw": 71900,
+    "source": "https://prod.danawa.com/info/?pcode=89601908",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 23개 몰) · EFM ipTIME BE3600M 유무선공유기",
+    "used_price_krw": null
+  },
+  "be3600plus": {
+    "model": "ipTIME BE3600plus",
+    "price_krw": 64700,
+    "source": "https://prod.danawa.com/info/?pcode=124154477",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 177개 몰) · EFM ipTIME BE3600plus 유무선공유기",
+    "used_price_krw": null
+  },
+  "be3600qca": {
+    "model": "ipTIME BE3600QCA",
+    "price_krw": 292690,
+    "source": "https://prod.danawa.com/info/?pcode=73121396",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 2개 몰) · EFM ipTIME BE3600QCA 유무선공유기 · ⚠ 판매처 적음/단종 — 재고 매물 가격일 수 있음",
+    "used_price_krw": null
+  },
+  "be5100m": {
+    "model": "ipTIME BE5100M",
+    "price_krw": 82390,
+    "source": "https://prod.danawa.com/info/?pcode=89650169",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 205개 몰) · EFM ipTIME BE5100M 유무선공유기",
+    "used_price_krw": 95000
+  },
+  "be7200m": {
+    "model": "ipTIME BE7200M",
+    "price_krw": 165400,
+    "source": "https://prod.danawa.com/info/?pcode=124481304",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 138개 몰) · EFM ipTIME BE7200M 유무선공유기",
+    "used_price_krw": null
+  },
+  "be7208m": {
+    "model": "ipTIME BE7208M",
+    "price_krw": 184370,
+    "source": "https://prod.danawa.com/info/?pcode=124503699",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 128개 몰) · EFM ipTIME BE7208M 유무선공유기",
+    "used_price_krw": null
+  },
+  "be9400qca": {
+    "model": "ipTIME BE9400QCA",
+    "price_krw": 234100,
+    "source": "https://prod.danawa.com/info/?pcode=101543957",
+    "checked_at": "2026-11-07",
+    "note": "다나와 최저가 (가격비교, 308개 몰) · EFM ipTIME BE9400QCA 유무선공유기",
+    "used_price_krw": null
+  }
+}

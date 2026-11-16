@@ -1,0 +1,17 @@
+apply_regulation_on_ate=0
+txpwr_low_limit_2g=25
+txpwr_low_limit_5gh=25
+txpwr_low_limit_5gm=25
+txpwr_low_limit_5gl=36
+wifi_reg[0].country=KR
+wifi_reg[0].revision=1
+wifi_reg[0].pwr_percent_2g=100
+#It should be 0x7777 for 83
+#1:cckbw202gpo=0x7777
+#1:cckbw20ul2gpo=0x7777
+wifi_reg[0].pwr_percent_5gh=100
+wifi_reg[0].pwr_percent_5gm=100
+wifi_reg[0].pwr_percent_5gl=100
+wifi_reg[0].pwr_percent_5g_lp=55
+wifi_reg[0].channel_5g_lp=48:*,44:40,44:80
+

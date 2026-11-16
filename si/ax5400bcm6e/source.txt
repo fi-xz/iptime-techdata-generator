@@ -1,0 +1,2 @@
+firmware=ax54b6e_ml_16_006.bin
+si_dir=ax5400bcm6e//oem_firmware/_ax54b6e_ml_16_006.bin.extracted/squashfs-root/default/var/run/si

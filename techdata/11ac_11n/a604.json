@@ -1,0 +1,69 @@
+{
+  "model": "ipTIME A604",
+  "target": "",
+  "bootloader": "",
+  "soc": "Realtek RTL8197D",
+  "soc_vendor": "Realtek",
+  "flash": "8MB",
+  "ram": "64MB",
+  "switch": "internal",
+  "wlan2_4": "rtl8192er",
+  "wlan5": "rtl8812ar",
+  "wlan_driver": "",
+  "usb": 0,
+  "ethernet_ports": 5,
+  "serial_port": 1,
+  "serial_port_info": "ttyS0 38400bps (OEM kernel console=ttyS0,38400)",
+  "uart_exposed": true,
+  "uart_note": "",
+  "wifi_standard": "Wi-Fi 5",
+  "wlan5_2": "",
+  "wlan6": "",
+  "switch_ext": "",
+  "switch_mapping": [
+    {
+      "label": "LAN1",
+      "switch": "internal",
+      "port": "4",
+      "role": "lan"
+    },
+    {
+      "label": "LAN2",
+      "switch": "internal",
+      "port": "3",
+      "role": "lan"
+    },
+    {
+      "label": "LAN3",
+      "switch": "internal",
+      "port": "2",
+      "role": "lan"
+    },
+    {
+      "label": "LAN4",
+      "switch": "internal",
+      "port": "1",
+      "role": "lan"
+    },
+    {
+      "label": "WAN",
+      "switch": "internal",
+      "port": "0",
+      "role": "wan"
+    }
+  ],
+  "gpio_base": null,
+  "gpio_buttons": {
+    "reset": null,
+    "wps": null
+  },
+  "leds": [],
+  "led_port_control": "",
+  "fan": false,
+  "fan_info": "",
+  "uart_baudrate": 38400,
+  "internal_model": "IP04245B",
+  "firmware_git_commit": "",
+  "firmware_git_branch": "",
+  "si_source": "a604_kr_12_066.bin"
+}
