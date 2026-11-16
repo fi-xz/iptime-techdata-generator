@@ -1,6 +1,6 @@
 # ipTIME OpenWrt 포팅 후보
 
-- 생성: 2026-11-16T02:34:33.737Z
+- 생성: 2026-11-16T02:50:59.517Z
 - 스냅샷: 2026-11-16T02:31:12.107Z · openwrt/main tree `7424e2ca306c` · GitHub 검색 `repo:openwrt/openwrt iptime` 92건
 - 옵션: sort=score
 - 제외: upstream 지원 18개, 지원 예정(열린 add-support PR) 5개
@@ -97,7 +97,7 @@
     - uboot-tools PKG_RELEASE 미증가 (봇 경고 미반영). #26729도 같은 PKG_RELEASE를 올려서 늦게 머지되는 쪽은 rebase 필요
     - 리뷰어 achterin 지적(11_fix_wifi_mac case 순서) 반영 완료. 빌드 CI는 아직 안 돌았음 (FormalityCheck만 통과)
 - **ipTIME AX6000M** (점수 89 · 가격 159,400원): [#24510](https://github.com/openwrt/openwrt/pull/24510) mediatek: filogic: add support for ipTIME AX6000M (갱신 2026-08-10); [#22387](https://github.com/openwrt/openwrt/pull/22387) mediatek: filogic: add support for ipTIME AX6000M (갱신 2026-05-16)
-- **ipTIME A3004NS-M** (점수 81 · 가격 227,050원): [#24707](https://github.com/openwrt/openwrt/pull/24707) ramips: add support for ipTIME A3004NS-M (갱신 2026-08-18); [#22574](https://github.com/openwrt/openwrt/pull/22574) ramips: add support for ipTIME A3004NS-M (갱신 2026-04-16)
+- **ipTIME A3004NS-M** (점수 81 · 가격 227,050원 · 중고 33,000원): [#24707](https://github.com/openwrt/openwrt/pull/24707) ramips: add support for ipTIME A3004NS-M (갱신 2026-08-18); [#22574](https://github.com/openwrt/openwrt/pull/22574) ramips: add support for ipTIME A3004NS-M (갱신 2026-04-16)
 - **ipTIME A3008-MU** (점수 75 · 가격 159,000원): [#26105](https://github.com/openwrt/openwrt/pull/26105) mediatek: add support iptime A3008-MU (갱신 2026-10-23)
 - **ipTIME AX8004M** (점수 58 · 가격 178,000원 · 중고 90,000원): [#13118](https://github.com/openwrt/openwrt/pull/13118) mediatek: mt7622: Add support for ipTIME AX8004M (갱신 2026-08-10)
 
@@ -122,7 +122,7 @@ AX2002MESH, AX2004M, AX3000M, AX3000Q, AX3000SE, AX3000SM, AX7800M-6E, A1004NS, 
 ### 1. ipTIME A3004M <a id="a3004m"></a>
 
 - 점수 **78** · MediaTek MT7621 · 16MB / 256MB · 이더넷 5 · USB 1 · Wi-Fi 5
-- 판매: 단종 · 출시 2022.09 · OEM ID `a3004m` · 가격 110,000원
+- 판매: 단종 · 출시 2022.09 · OEM ID `a3004m` · 가격 110,000원 · 중고 50,000원
 - 가격 확인: [다나와](https://search.danawa.com/dsearch.php?query=ipTIME%20A3004M) · [네이버쇼핑](https://search.shopping.naver.com/search/all?query=ipTIME%20A3004M) · [제품 페이지](https://iptime.com/products/651)
 
 | 항목 | 점수 | 근거 |

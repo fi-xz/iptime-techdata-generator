@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:34:33.735Z",
+  "generated_at": "2026-11-16T02:50:59.515Z",
   "snapshot": {
     "fetched_at": "2026-11-16T02:31:12.107Z",
     "openwrt_tree_sha": "7424e2ca306c801eaf9c9dee23545af1a4e66d20"
@@ -28,7 +28,7 @@
       "release_date": "2022.09",
       "oem_id": "a3004m",
       "price_krw": 110000,
-      "used_price_krw": null,
+      "used_price_krw": 50000,
       "breakdown": [
         {
           "label": "플랫폼",
@@ -5815,7 +5815,7 @@
       "release_date": "2017.12",
       "oem_id": "a3004nm",
       "price_krw": 227050,
-      "used_price_krw": null,
+      "used_price_krw": 33000,
       "breakdown": [
         {
           "label": "플랫폼",

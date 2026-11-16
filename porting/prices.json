@@ -189,7 +189,7 @@
     "source": "https://prod.danawa.com/info/?pcode=13140132",
     "checked_at": "2026-11-07",
     "note": "다나와 최저가 (가격비교, 5개 몰) · EFM ipTIME A3004M 유무선공유기",
-    "used_price_krw": null
+    "used_price_krw": 50000
   },
   "a3004ns": {
     "model": "ipTIME A3004ns",
@@ -213,7 +213,7 @@
     "source": "https://prod.danawa.com/info/?pcode=5767006",
     "checked_at": "2026-11-07",
     "note": "다나와 최저가 (가격비교, 4개 몰) · EFM ipTIME A3004NS-M 유무선공유기",
-    "used_price_krw": null
+    "used_price_krw": 33000
   },
   "a3004tw": {
     "model": "ipTIME A3004TW",
